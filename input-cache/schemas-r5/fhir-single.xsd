@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Sat, Nov 9, 2019 18:02+0000 for FHIR v4.1.0 
+  Generated on Thu, Nov 14, 2019 16:57+0000 for FHIR v4.1.0 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="4.1.0">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -11832,7 +11832,7 @@ into another (possibly the same) biological entity.</xs:documentation>
               <xs:documentation xml:lang="en">General description.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">General description.</xs:documentation>
            </xs:annotation>
@@ -14359,14 +14359,24 @@ into another (possibly the same) biological entity.</xs:documentation>
               <xs:documentation xml:lang="en">Has the instruction been verified.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="verificationType" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Extensible list of verification type starting with verification and re-validation.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="verifiedBy" minOccurs="0" maxOccurs="1" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The person who conducted the verification/validation of the Grantee decision.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="verifiedWith" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Who verified the instruction (Patient, Relative or other Authorized Person).</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="verificationDate" minOccurs="0" maxOccurs="1" type="dateTime">
+          <xs:element name="verificationDate" minOccurs="0" maxOccurs="unbounded" type="dateTime">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Date verification was collected.</xs:documentation>
+              <xs:documentation xml:lang="en">Date(s) verification was collected.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -30923,7 +30933,7 @@ The primary difference between a medicationusage and a medicationadministration 
               <xs:documentation xml:lang="en">The product's name, including full name and possibly coded parts.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="crossReference" minOccurs="0" maxOccurs="unbounded" type="Identifier">
+          <xs:element name="crossReference" type="MedicinalProductDefinition.CrossReference" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">Reference to another product, e.g. for linking authorised to investigational product.</xs:documentation>
            </xs:annotation>
@@ -30931,11 +30941,6 @@ The primary difference between a medicationusage and a medicationadministration 
           <xs:element name="manufacturingBusinessOperation" type="MedicinalProductDefinition.ManufacturingBusinessOperation" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">An operation applied to the product, for manufacturing or adminsitrative purpose.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="specialDesignation" type="MedicinalProductDefinition.SpecialDesignation" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Indicates if the medicinal product has an orphan designation for the treatment of a rare disease.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -31041,6 +31046,29 @@ The primary difference between a medicationusage and a medicationadministration 
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="MedicinalProductDefinition.CrossReference">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Detailed definition of a medicinal product, typically for uses other than direct patient care (e.g. regulatory use).</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:choice minOccurs="1" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Reference to another product, e.g. for linking authorised to investigational product.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="productIdentifier" type="Identifier"/>
+            <xs:element name="productReference" type="Reference"/>
+          </xs:choice>
+          <xs:element name="type" minOccurs="0" maxOccurs="1" type="Coding">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The type of relationship, for instance branded to generic, product to development product (investigational), parallel import version.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="MedicinalProductDefinition.ManufacturingBusinessOperation">
     <xs:annotation>
       <xs:documentation xml:lang="en">Detailed definition of a medicinal product, typically for uses other than direct patient care (e.g. regulatory use).</xs:documentation>
@@ -31076,54 +31104,6 @@ The primary difference between a medicationusage and a medicationadministration 
           <xs:element name="regulator" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">A regulator which oversees the operation.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="MedicinalProductDefinition.SpecialDesignation">
-    <xs:annotation>
-      <xs:documentation xml:lang="en">Detailed definition of a medicinal product, typically for uses other than direct patient care (e.g. regulatory use).</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="BackboneElement">
-        <xs:sequence>
-          <xs:element name="identifier" minOccurs="0" maxOccurs="unbounded" type="Identifier">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Identifier for the designation, or procedure number.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="type" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The type of special designation, e.g. orphan drug, minor use.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="intendedUse" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The intended use of the product, e.g. prevention, treatment.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:choice minOccurs="0" maxOccurs="1" >
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Condition for which the medicinal use applies.</xs:documentation>
-            </xs:annotation>
-            <xs:element name="indicationCodeableConcept" type="CodeableConcept"/>
-            <xs:element name="indicationReference" type="Reference"/>
-          </xs:choice>
-          <xs:element name="status" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">For example granted, pending, expired or withdrawn.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="date" minOccurs="0" maxOccurs="1" type="dateTime">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Date when the designation was granted.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="species" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Animal species for which this applies.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -37293,7 +37273,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Type of this authorization, for example drug marketing approval, orphan drug designation.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">General textual supporting information.</xs:documentation>
            </xs:annotation>
@@ -41137,7 +41117,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">If the substance applies to only human or veterinary use.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">Textual description of the substance.</xs:documentation>
            </xs:annotation>
