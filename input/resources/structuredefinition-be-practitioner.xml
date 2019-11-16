@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="be-practitioner" />
+  <url value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner" />
+  <version value="0.1.0" />
+  <name value="BePractitioner" />
+  <status value="draft" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Practitioner" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Practitioner.identifier">
+      <path value="Practitioner.identifier" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Practitioner.identifier:NIHDI">
+      <path value="Practitioner.identifier" />
+      <sliceName value="NIHDI" />
+    </element>
+    <element id="Practitioner.identifier:NIHDI.system">
+      <path value="Practitioner.identifier.system" />
+      <fixedUri value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi" />
+    </element>
+    <element id="Practitioner.identifier:SSIN">
+      <path value="Practitioner.identifier" />
+      <sliceName value="SSIN" />
+    </element>
+    <element id="Practitioner.identifier:SSIN.system">
+      <path value="Practitioner.identifier.system" />
+      <fixedUri value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin" />
+    </element>
+    <element id="Practitioner.identifier:CBE">
+      <path value="Practitioner.identifier" />
+      <sliceName value="CBE" />
+    </element>
+    <element id="Practitioner.identifier:CBE.system">
+      <path value="Practitioner.identifier.system" />
+      <fixedUri value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cbe" />
+    </element>
+    <element id="Practitioner.name">
+      <path value="Practitioner.name" />
+      <min value="1" />
+    </element>
+    <element id="Practitioner.address.extension">
+      <path value="Practitioner.address.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Practitioner.address.extension:language">
+      <path value="Practitioner.address.extension" />
+      <sliceName value="language" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/language" />
+      </type>
+    </element>
+    <element id="Practitioner.address.extension:language.value[x]">
+      <path value="Practitioner.address.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="item.resolve()" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <type>
+        <code value="code" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
