@@ -95,7 +95,17 @@
       <fhirVersion value="4.0.1"/>
       <name value="Observation core BE profile"/>
       <description value="The Core BE profile for Observation"/>
-      <groupingId value="conditions"/>
+      <groupingId value="condition"/>
+    </resource> 
+	
+	   <resource>
+      <reference>
+        <reference value="StructureDefinition/be-observationcodeableconcept"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Observation codeable concept code core BE profile"/>
+      <description value="The Core BE profile for Observation codeable concept"/>
+      <groupingId value="core"/>
     </resource> 
 	
 	   <resource>
@@ -103,7 +113,7 @@
         <reference value="StructureDefinition/be-provenance"/>
       </reference>
       <fhirVersion value="4.0.1"/>
-      <name value="Patient core BE provenance"/>
+      <name value="Provenance core BE profile"/>
       <description value="The Core BE profile for Provenance"/>
       <groupingId value="core"/>
     </resource> 
@@ -114,7 +124,7 @@
         <reference value="StructureDefinition/be-organization"/>
       </reference>
       <fhirVersion value="4.0.1"/>
-      <name value="Patient core BE organization"/>
+      <name value="Organization core BE profile"/>
       <description value="The Core BE profile for Organization"/>
       <groupingId value="core"/>
     </resource> 
