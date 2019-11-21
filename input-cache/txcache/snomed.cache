@@ -6755,3 +6755,1353 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "447694001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Respiratory tract route"
+        }]
+      },
+      {
+        "code" : "6064005",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Topical route"
+        }]
+      },
+      {
+        "code" : "26643006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oral route"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:2d6b4e38-56b6-4890-9df7-dc9636df6370",
+    "timestamp" : "2019-11-20T15:25:52.419Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "447694001",
+      "display" : "Respiratory tract route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6064005",
+      "display" : "Topical route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26643006",
+      "display" : "Oral route"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "447694001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Respiratory tract route"
+        }]
+      },
+      {
+        "code" : "6064005",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Topical route"
+        }]
+      },
+      {
+        "code" : "26643006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oral route"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT 11000201108 edition 06-Mar 2017</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-447694001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447694001\">447694001</a></td><td>Respiratory tract route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6064005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6064005\">6064005</a></td><td>Topical route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26643006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26643006\">26643006</a></td><td>Oral route</td><td/></tr></table></div>"
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:727cb8bc-cfd7-4253-ad82-7f2471936aa2",
+    "timestamp" : "2019-11-20T15:26:07.997Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "447694001",
+      "display" : "Respiratory tract route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6064005",
+      "display" : "Topical route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26643006",
+      "display" : "Oral route"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "39579001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Anaphylaxis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Anaphylaxie"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "anafylaxie"
+        }]
+      },
+      {
+        "code" : "41291007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Angio-oedema"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Angio-œdème"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "angio-oedeem"
+        }]
+      },
+      {
+        "code" : "195967001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Asthma"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Asthme"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "astma"
+        }]
+      },
+      {
+        "code" : "24079001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Atopic dermatitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Dermatite atopique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Atopische dermatitis"
+        }]
+      },
+      {
+        "code" : "4386001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Bronchospasm"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Bronchospasme"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Bronchospasme"
+        }]
+      },
+      {
+        "code" : "271759003",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Bullous eruption"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eruption bulleuse"
+        },
+        {
+          "language" : "BE-nl"
+        }]
+      },
+      {
+        "code" : "698247007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cardiac arrhythmia"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Arythmie cardique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Hartritmestoornis"
+        }]
+      },
+      {
+        "code" : "410430005",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cardiorespiratory arrest"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Arrêt cardiorespiratoire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Cardiorespiratoire stilstand"
+        }]
+      },
+      {
+        "code" : "9826008",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Conjunctivitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Conjonctivite"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "conjonctivitis"
+        }]
+      },
+      {
+        "code" : "49727002",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cough"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Toux"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "hoest"
+        }]
+      },
+      {
+        "code" : "62315008",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Diarrhoea"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Diarrhée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "diarree"
+        }]
+      },
+      {
+        "code" : "702809001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Drug reaction with eosinophilia and systemic symptoms"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Syndrome d'hypersensibilité médicamenteuse"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
+        }]
+      },
+      {
+        "code" : "162290004",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Dry eyes"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Sécheresse oculaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "droge ogen"
+        }]
+      },
+      {
+        "code" : "267036007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Dyspnea"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Dyspnée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "kortademigheid"
+        }]
+      },
+      {
+        "code" : "43116000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Eczema"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eczéma"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Eczeem"
+        }]
+      },
+      {
+        "code" : "418363000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Itching of skin"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Prurit"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "jeuk"
+        }]
+      },
+      {
+        "code" : "422587007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Nausea"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Nausée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Misselijkheid"
+        }]
+      },
+      {
+        "code" : "359610006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Ocular hyperaemia"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Hyperémie oculaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Oogbeschadigingen en/of hyperemia"
+        }]
+      },
+      {
+        "code" : "51599000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oedema of larynx"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Œdème laryngé"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Oedeem van het strottenhoofd"
+        }]
+      },
+      {
+        "code" : "271757001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Papular eruption"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eruption papulaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Papulaire uitbarsting"
+        }]
+      },
+      {
+        "code" : "70076002",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Rhinitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Rhinite"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Rinitis"
+        }]
+      },
+      {
+        "code" : "91175000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Seizure"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Crise épileptique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Epileptische aanval"
+        }]
+      },
+      {
+        "code" : "76067001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Sneezing"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eternuement"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Niezen"
+        }]
+      },
+      {
+        "code" : "73442001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Stevens-Johnson syndrome"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Syndrome de Stevens-Johnson"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Stevens-Johnson syndroom"
+        }]
+      },
+      {
+        "code" : "23924001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Tight chest"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Oppression thoracique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "beklemmende borst"
+        }]
+      },
+      {
+        "code" : "126485001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Urticaria"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Urticaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "netelroos"
+        }]
+      },
+      {
+        "code" : "31996006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Vasculitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Vascularite"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Vasculitis"
+        }]
+      },
+      {
+        "code" : "1985008",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Vomitus"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Vomi"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "braken"
+        }]
+      },
+      {
+        "code" : "247472004",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Weal"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Éruption cutanée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Huiduitslag"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:2db456ce-c3cd-42b5-8cac-45ed9b60bf31",
+    "timestamp" : "2019-11-20T16:22:56.154Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "39579001",
+      "display" : "anafylaxie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41291007",
+      "display" : "angio-oedeem"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "195967001",
+      "display" : "astma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24079001",
+      "display" : "Atopische dermatitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4386001",
+      "display" : "Bronchospasme"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271759003",
+      "display" : "Bullous eruption"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698247007",
+      "display" : "Hartritmestoornis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410430005",
+      "display" : "Cardiorespiratoire stilstand"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9826008",
+      "display" : "conjonctivitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49727002",
+      "display" : "hoest"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62315008",
+      "display" : "diarree"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702809001",
+      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "162290004",
+      "display" : "droge ogen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "267036007",
+      "display" : "kortademigheid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "43116000",
+      "display" : "Eczeem"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "418363000",
+      "display" : "jeuk"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "422587007",
+      "display" : "Misselijkheid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "359610006",
+      "display" : "Oogbeschadigingen en/of hyperemia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "51599000",
+      "display" : "Oedeem van het strottenhoofd"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271757001",
+      "display" : "Papulaire uitbarsting"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70076002",
+      "display" : "Rinitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91175000",
+      "display" : "Epileptische aanval"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76067001",
+      "display" : "Niezen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73442001",
+      "display" : "Stevens-Johnson syndroom"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23924001",
+      "display" : "beklemmende borst"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126485001",
+      "display" : "netelroos"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31996006",
+      "display" : "Vasculitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1985008",
+      "display" : "braken"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "247472004",
+      "display" : "Huiduitslag"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "39579001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Anaphylaxis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Anaphylaxie"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "anafylaxie"
+        }]
+      },
+      {
+        "code" : "41291007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Angio-oedema"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Angio-œdème"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "angio-oedeem"
+        }]
+      },
+      {
+        "code" : "195967001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Asthma"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Asthme"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "astma"
+        }]
+      },
+      {
+        "code" : "24079001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Atopic dermatitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Dermatite atopique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Atopische dermatitis"
+        }]
+      },
+      {
+        "code" : "4386001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Bronchospasm"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Bronchospasme"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Bronchospasme"
+        }]
+      },
+      {
+        "code" : "271759003",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Bullous eruption"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eruption bulleuse"
+        },
+        {
+          "language" : "BE-nl"
+        }]
+      },
+      {
+        "code" : "698247007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cardiac arrhythmia"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Arythmie cardique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Hartritmestoornis"
+        }]
+      },
+      {
+        "code" : "410430005",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cardiorespiratory arrest"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Arrêt cardiorespiratoire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Cardiorespiratoire stilstand"
+        }]
+      },
+      {
+        "code" : "9826008",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Conjunctivitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Conjonctivite"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "conjonctivitis"
+        }]
+      },
+      {
+        "code" : "49727002",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Cough"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Toux"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "hoest"
+        }]
+      },
+      {
+        "code" : "62315008",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Diarrhoea"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Diarrhée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "diarree"
+        }]
+      },
+      {
+        "code" : "702809001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Drug reaction with eosinophilia and systemic symptoms"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Syndrome d'hypersensibilité médicamenteuse"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
+        }]
+      },
+      {
+        "code" : "162290004",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Dry eyes"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Sécheresse oculaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "droge ogen"
+        }]
+      },
+      {
+        "code" : "267036007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Dyspnea"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Dyspnée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "kortademigheid"
+        }]
+      },
+      {
+        "code" : "43116000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Eczema"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eczéma"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Eczeem"
+        }]
+      },
+      {
+        "code" : "418363000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Itching of skin"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Prurit"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "jeuk"
+        }]
+      },
+      {
+        "code" : "422587007",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Nausea"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Nausée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Misselijkheid"
+        }]
+      },
+      {
+        "code" : "359610006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Ocular hyperaemia"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Hyperémie oculaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Oogbeschadigingen en/of hyperemia"
+        }]
+      },
+      {
+        "code" : "51599000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oedema of larynx"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Œdème laryngé"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Oedeem van het strottenhoofd"
+        }]
+      },
+      {
+        "code" : "271757001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Papular eruption"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eruption papulaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Papulaire uitbarsting"
+        }]
+      },
+      {
+        "code" : "70076002",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Rhinitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Rhinite"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Rinitis"
+        }]
+      },
+      {
+        "code" : "91175000",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Seizure"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Crise épileptique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Epileptische aanval"
+        }]
+      },
+      {
+        "code" : "76067001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Sneezing"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Eternuement"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Niezen"
+        }]
+      },
+      {
+        "code" : "73442001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Stevens-Johnson syndrome"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Syndrome de Stevens-Johnson"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Stevens-Johnson syndroom"
+        }]
+      },
+      {
+        "code" : "23924001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Tight chest"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Oppression thoracique"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "beklemmende borst"
+        }]
+      },
+      {
+        "code" : "126485001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Urticaria"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Urticaire"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "netelroos"
+        }]
+      },
+      {
+        "code" : "31996006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Vasculitis"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Vascularite"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Vasculitis"
+        }]
+      },
+      {
+        "code" : "1985008",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Vomitus"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Vomi"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "braken"
+        }]
+      },
+      {
+        "code" : "247472004",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Weal"
+        },
+        {
+          "language" : "BE-fr",
+          "value" : "Éruption cutanée"
+        },
+        {
+          "language" : "BE-nl",
+          "value" : "Huiduitslag"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:62059d00-4622-4aef-894e-fbbedb792531",
+    "timestamp" : "2019-11-20T16:23:10.842Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "39579001",
+      "display" : "anafylaxie"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41291007",
+      "display" : "angio-oedeem"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "195967001",
+      "display" : "astma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24079001",
+      "display" : "Atopische dermatitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4386001",
+      "display" : "Bronchospasme"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271759003",
+      "display" : "Bullous eruption"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698247007",
+      "display" : "Hartritmestoornis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410430005",
+      "display" : "Cardiorespiratoire stilstand"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9826008",
+      "display" : "conjonctivitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49727002",
+      "display" : "hoest"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62315008",
+      "display" : "diarree"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702809001",
+      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "162290004",
+      "display" : "droge ogen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "267036007",
+      "display" : "kortademigheid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "43116000",
+      "display" : "Eczeem"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "418363000",
+      "display" : "jeuk"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "422587007",
+      "display" : "Misselijkheid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "359610006",
+      "display" : "Oogbeschadigingen en/of hyperemia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "51599000",
+      "display" : "Oedeem van het strottenhoofd"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271757001",
+      "display" : "Papulaire uitbarsting"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70076002",
+      "display" : "Rinitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91175000",
+      "display" : "Epileptische aanval"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76067001",
+      "display" : "Niezen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73442001",
+      "display" : "Stevens-Johnson syndroom"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23924001",
+      "display" : "beklemmende borst"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126485001",
+      "display" : "netelroos"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31996006",
+      "display" : "Vasculitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1985008",
+      "display" : "braken"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "247472004",
+      "display" : "Huiduitslag"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

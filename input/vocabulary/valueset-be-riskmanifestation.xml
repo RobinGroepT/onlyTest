@@ -1,0 +1,474 @@
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="be-riskmanifestation"/>
+	<url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-riskmanifestation"/>
+	<version value="0.1.0"/>
+	<name value="BeRiskManifestation"/>
+	<status value="draft"/>
+	<publisher value="eHealth Platform"/>
+	<contact>
+		<name value="eHealth Platform"/>
+
+		<telecom>
+			<system value="url"/>
+			<value value="https://www.ehealth.fgov.be/standards/kmehr/en"/>
+		</telecom>
+	</contact>
+	<description value="Codes as communicated by NIHDI differentiating types of risk manifestation. This valueset supports the Belgian federal FHIR profiling effort."/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>	<concept>
+		<code value="39579001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Anaphylaxis"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Anaphylaxie"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="anafylaxie"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="41291007"/>
+		<designation>
+			<language value="en"/>
+			<value value="Angio-oedema"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Angio-œdème"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="angio-oedeem"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="195967001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Asthma"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Asthme"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="astma"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="24079001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Atopic dermatitis"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Dermatite atopique"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Atopische dermatitis"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="4386001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Bronchospasm"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Bronchospasme"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Bronchospasme"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="271759003"/>
+		<designation>
+			<language value="en"/>
+			<value value="Bullous eruption"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Eruption bulleuse"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value=""/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="698247007"/>
+		<designation>
+			<language value="en"/>
+			<value value="Cardiac arrhythmia"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Arythmie cardique"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Hartritmestoornis"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="410430005"/>
+		<designation>
+			<language value="en"/>
+			<value value="Cardiorespiratory arrest"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Arrêt cardiorespiratoire"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Cardiorespiratoire stilstand"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="9826008"/>
+		<designation>
+			<language value="en"/>
+			<value value="Conjunctivitis"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Conjonctivite"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="conjonctivitis"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="49727002"/>
+		<designation>
+			<language value="en"/>
+			<value value="Cough"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Toux"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="hoest"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="62315008"/>
+		<designation>
+			<language value="en"/>
+			<value value="Diarrhoea"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Diarrhée"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="diarree"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="702809001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Drug reaction with eosinophilia and systemic symptoms"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Syndrome d'hypersensibilité médicamenteuse"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Drug eruption met eosinofilie &#xA;en systemische symptomen"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="162290004"/>
+		<designation>
+			<language value="en"/>
+			<value value="Dry eyes"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Sécheresse oculaire"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="droge ogen"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="267036007"/>
+		<designation>
+			<language value="en"/>
+			<value value="Dyspnea"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Dyspnée"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="kortademigheid"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="43116000"/>
+		<designation>
+			<language value="en"/>
+			<value value="Eczema"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Eczéma"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Eczeem"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="418363000"/>
+		<designation>
+			<language value="en"/>
+			<value value="Itching of skin"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Prurit"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="jeuk"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="422587007"/>
+		<designation>
+			<language value="en"/>
+			<value value="Nausea"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Nausée"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Misselijkheid"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="359610006"/>
+		<designation>
+			<language value="en"/>
+			<value value="Ocular hyperaemia"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Hyperémie oculaire"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Oogbeschadigingen en/of hyperemia"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="51599000"/>
+		<designation>
+			<language value="en"/>
+			<value value="Oedema of larynx"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Œdème laryngé"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Oedeem van het strottenhoofd"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="271757001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Papular eruption"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Eruption papulaire"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Papulaire uitbarsting"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="70076002"/>
+		<designation>
+			<language value="en"/>
+			<value value="Rhinitis"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Rhinite"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Rinitis"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="91175000"/>
+		<designation>
+			<language value="en"/>
+			<value value="Seizure"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Crise épileptique"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Epileptische aanval"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="76067001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Sneezing"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Eternuement"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Niezen"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="73442001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Stevens-Johnson syndrome"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Syndrome de Stevens-Johnson"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Stevens-Johnson syndroom"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="23924001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Tight chest"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Oppression thoracique"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="beklemmende borst"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="126485001"/>
+		<designation>
+			<language value="en"/>
+			<value value="Urticaria"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Urticaire"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="netelroos"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="31996006"/>
+		<designation>
+			<language value="en"/>
+			<value value="Vasculitis"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Vascularite"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Vasculitis"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1985008"/>
+		<designation>
+			<language value="en"/>
+			<value value="Vomitus"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Vomi"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="braken"/>
+		</designation>
+	</concept>
+	<concept>
+		<code value="247472004"/>
+		<designation>
+			<language value="en"/>
+			<value value="Weal"/>
+		</designation>
+		<designation>
+			<language value="BE-fr"/>
+			<value value="Éruption cutanée"/>
+		</designation>
+		<designation>
+			<language value="BE-nl"/>
+			<value value="Huiduitslag"/>
+		</designation>
+	</concept>
+	</include>
+	   <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor" />
+            <concept>
+                <code value="OTH" />
+                <designation>
+                    <language value="en" />
+                    <value value="Other" />
+                </designation>
+                <designation>
+                    <language value="nl-BE" />
+                    <value value="Andere" />
+                </designation>
+                <designation>
+                    <language value="fr-BE" />
+                    <value value="Autre" />
+                </designation>
+            </concept>
+            </include>
+	</compose>
+</ValueSet>

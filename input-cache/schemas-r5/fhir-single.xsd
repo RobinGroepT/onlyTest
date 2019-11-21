@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Nov 14, 2019 16:57+0000 for FHIR v4.1.0 
+  Generated on Tue, Nov 19, 2019 09:41+0000 for FHIR v4.1.0 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="4.1.0">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -40736,7 +40736,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The time for the server to turn the subscription off.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="reason" minOccurs="1" maxOccurs="1" type="string">
+          <xs:element name="reason" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A description of why this subscription is defined.</xs:documentation>
            </xs:annotation>
@@ -40753,7 +40753,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="eventCount" minOccurs="0" maxOccurs="1" type="unsignedInt">
             <xs:annotation>
-              <xs:documentation xml:lang="en">A record of  the number of events for which the server has attempted delivery on this subscription (i.e., the number of events that occurred while the subscription is in an &quot;active&quot; or &quot;error&quot; state -- not &quot;requested&quot; or &quot;off&quot;).   Server Initializes to 0 for a new subscription.  Repeated attempts at delivery of the *same* event notification do not increment this counter.</xs:documentation>
+              <xs:documentation xml:lang="en">A record of  the number of events for which the server has attempted delivery on this subscription (i.e., the number of events that occurred while the subscription is in an &quot;active&quot; or &quot;error&quot; state -- not &quot;requested&quot; or &quot;off&quot;).   Server Initializes to 0 for a new subscription.  Repeated attempts at delivery of the *same* event notification do not increment this counter.  Valid values are unsigned integers (0+).  The decmial type is used to ensure that counts can grow larger than 32-bit values.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="channel" type="Subscription.Channel" minOccurs="1" maxOccurs="1">
@@ -40836,7 +40836,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
         <xs:sequence>
           <xs:element name="contentType" minOccurs="0" maxOccurs="1" type="code">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The mime type to send the payload in - either application/fhir+xml, or application/fhir+json. The mime type &quot;text/plain&quot; may also be used for Email and SMS subscriptions.</xs:documentation>
+              <xs:documentation xml:lang="en">The mime type to send the payload in - either application/fhir+xml, or application/fhir+json. The MIME types &quot;text/plain&quot; and &quot;text/html&quot; may also be used for Email subscriptions.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="content" minOccurs="0" maxOccurs="1" type="SubscriptionPayloadContent">
@@ -45147,7 +45147,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="canFilterBy" type="Topic.CanFilterBy" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">List of properties by which messages on the topic can be filtered.</xs:documentation>
+              <xs:documentation xml:lang="en">List of properties by which Subscriptions on the topic can be filtered.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
