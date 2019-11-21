@@ -212,7 +212,7 @@
 	
 	 <resource>
       <reference>
-        <reference value="CodeSystem/cd-contactperson"/>
+        <reference value="CodeSystem/cd-contact-person"/>
       </reference>
       <fhirVersion value="4.0.1"/>
       <name value="Codesystem CD-CONTACT-PERSON"/>
@@ -222,7 +222,7 @@
 	
 		 <resource>
       <reference>
-        <reference value="CodeSystem/cd-fedcountry"/>
+        <reference value="CodeSystem/cd-fed-country"/>
       </reference>
       <fhirVersion value="4.0.1"/>
       <name value="Codesystem CD-FED-COUNTRY"/>
@@ -230,7 +230,46 @@
       <groupingId value="terminology"/>
     </resource>
 	
+			 <resource>
+      <reference>
+        <reference value="NamingSystem/be-ehp"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem EHP"/>
+      <description value="The EHP naming system"/>
+      <groupingId value="terminology"/>
+    </resource>
 	
+			 <resource>
+      <reference>
+        <reference value="NamingSystem/be-cbe"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem CBE"/>
+      <description value="The CBE naming system"/>
+      <groupingId value="terminology"/>
+    </resource>
+	
+	
+			 <resource>
+      <reference>
+        <reference value="NamingSystem/be-ssin"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem SSIN"/>
+      <description value="The SSIN naming system"/>
+      <groupingId value="terminology"/>
+    </resource>
+	
+				 <resource>
+      <reference>
+        <reference value="NamingSystem/be-nihdi"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem NIHDI"/>
+      <description value="The NIHDI naming system"/>
+      <groupingId value="terminology"/>
+    </resource>
 	
     <page>
       <nameUrl value="toc.html"/>

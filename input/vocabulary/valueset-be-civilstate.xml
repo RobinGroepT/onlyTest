@@ -93,7 +93,7 @@
             </concept>
         </include>
         <include>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE" />
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate" />
             <concept>
                 <code value="10" />
                 <designation>

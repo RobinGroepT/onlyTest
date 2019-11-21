@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/R4/codesystem.xsd">
-	<id value="cd-fedcountry"/>
-	<url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-FED-COUNTRY"/>
+	<id value="cd-fed-country"/>
+	<url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-fed-country"/>
 	<version value="1.2"/>
 	<name value="FedCountry"/>
 	<title value="FedCountry"/>

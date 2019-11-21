@@ -23,7 +23,7 @@
 			</filter>
 		</include>
 		<include>
-			<system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+			<system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
 			<concept>
 				<code value="father"/>
 				<designation>

@@ -23,11 +23,11 @@
 			<value value="Anaphylaxis"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Anaphylaxie"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="anafylaxie"/>
 		</designation>
 	</concept>
@@ -38,11 +38,11 @@
 			<value value="Angio-oedema"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Angio-œdème"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="angio-oedeem"/>
 		</designation>
 	</concept>
@@ -53,11 +53,11 @@
 			<value value="Asthma"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Asthme"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="astma"/>
 		</designation>
 	</concept>
@@ -68,11 +68,11 @@
 			<value value="Atopic dermatitis"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Dermatite atopique"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Atopische dermatitis"/>
 		</designation>
 	</concept>
@@ -83,11 +83,11 @@
 			<value value="Bronchospasm"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Bronchospasme"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Bronchospasme"/>
 		</designation>
 	</concept>
@@ -98,12 +98,12 @@
 			<value value="Bullous eruption"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Eruption bulleuse"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
-			<value value=""/>
+			<language value="nl-BE"/>
+			<value value="XX"/>
 		</designation>
 	</concept>
 	<concept>
@@ -113,11 +113,11 @@
 			<value value="Cardiac arrhythmia"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Arythmie cardique"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Hartritmestoornis"/>
 		</designation>
 	</concept>
@@ -128,11 +128,11 @@
 			<value value="Cardiorespiratory arrest"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Arrêt cardiorespiratoire"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Cardiorespiratoire stilstand"/>
 		</designation>
 	</concept>
@@ -143,11 +143,11 @@
 			<value value="Conjunctivitis"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Conjonctivite"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="conjonctivitis"/>
 		</designation>
 	</concept>
@@ -158,11 +158,11 @@
 			<value value="Cough"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Toux"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="hoest"/>
 		</designation>
 	</concept>
@@ -173,11 +173,11 @@
 			<value value="Diarrhoea"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Diarrhée"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="diarree"/>
 		</designation>
 	</concept>
@@ -188,11 +188,11 @@
 			<value value="Drug reaction with eosinophilia and systemic symptoms"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Syndrome d'hypersensibilité médicamenteuse"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Drug eruption met eosinofilie &#xA;en systemische symptomen"/>
 		</designation>
 	</concept>
@@ -203,11 +203,11 @@
 			<value value="Dry eyes"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Sécheresse oculaire"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="droge ogen"/>
 		</designation>
 	</concept>
@@ -218,11 +218,11 @@
 			<value value="Dyspnea"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Dyspnée"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="kortademigheid"/>
 		</designation>
 	</concept>
@@ -233,11 +233,11 @@
 			<value value="Eczema"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Eczéma"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Eczeem"/>
 		</designation>
 	</concept>
@@ -248,11 +248,11 @@
 			<value value="Itching of skin"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Prurit"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="jeuk"/>
 		</designation>
 	</concept>
@@ -263,11 +263,11 @@
 			<value value="Nausea"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Nausée"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Misselijkheid"/>
 		</designation>
 	</concept>
@@ -278,11 +278,11 @@
 			<value value="Ocular hyperaemia"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Hyperémie oculaire"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Oogbeschadigingen en/of hyperemia"/>
 		</designation>
 	</concept>
@@ -293,11 +293,11 @@
 			<value value="Oedema of larynx"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Œdème laryngé"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Oedeem van het strottenhoofd"/>
 		</designation>
 	</concept>
@@ -308,11 +308,11 @@
 			<value value="Papular eruption"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Eruption papulaire"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Papulaire uitbarsting"/>
 		</designation>
 	</concept>
@@ -323,11 +323,11 @@
 			<value value="Rhinitis"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Rhinite"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Rinitis"/>
 		</designation>
 	</concept>
@@ -338,11 +338,11 @@
 			<value value="Seizure"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Crise épileptique"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Epileptische aanval"/>
 		</designation>
 	</concept>
@@ -353,11 +353,11 @@
 			<value value="Sneezing"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Eternuement"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Niezen"/>
 		</designation>
 	</concept>
@@ -368,11 +368,11 @@
 			<value value="Stevens-Johnson syndrome"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Syndrome de Stevens-Johnson"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Stevens-Johnson syndroom"/>
 		</designation>
 	</concept>
@@ -383,11 +383,11 @@
 			<value value="Tight chest"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Oppression thoracique"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="beklemmende borst"/>
 		</designation>
 	</concept>
@@ -398,11 +398,11 @@
 			<value value="Urticaria"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Urticaire"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="netelroos"/>
 		</designation>
 	</concept>
@@ -413,11 +413,11 @@
 			<value value="Vasculitis"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Vascularite"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Vasculitis"/>
 		</designation>
 	</concept>
@@ -428,11 +428,11 @@
 			<value value="Vomitus"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Vomi"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="braken"/>
 		</designation>
 	</concept>
@@ -443,11 +443,11 @@
 			<value value="Weal"/>
 		</designation>
 		<designation>
-			<language value="BE-fr"/>
+			<language value="fr-BE"/>
 			<value value="Éruption cutanée"/>
 		</designation>
 		<designation>
-			<language value="BE-nl"/>
+			<language value="nl-BE"/>
 			<value value="Huiduitslag"/>
 		</designation>
 	</concept>
