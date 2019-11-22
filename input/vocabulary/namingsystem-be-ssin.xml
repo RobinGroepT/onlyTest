@@ -1,7 +1,7 @@
 <NamingSystem  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/R4/namingsystem.xsd">
 		<id value="be-ssin"/>
 	
-	<name value="Social Security Identification Number (SSIN)"/>
+	<name value="BeSSINNamingSystem"/>
 	<status value="draft"/>
 	<kind value="identifier"/>
 	<date value="2019-06-05"/>
