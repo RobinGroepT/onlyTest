@@ -128,6 +128,16 @@
       <description value="The Core BE profile for Organization"/>
       <groupingId value="core"/>
     </resource> 
+	
+	  <resource>
+      <reference>
+        <reference value="StructureDefinition/be-address"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Address core BE profile"/>
+      <description value="The Core BE profile for Address"/>
+      <groupingId value="core"/>
+    </resource> 
     
     
 	    <resource>
