@@ -28,7 +28,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="pathologische Anatomie "/>
+			<value value="pathologische Anatomie"/>
 		</designation>
 	</concept>
 	<concept>
@@ -908,7 +908,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="medizinisches Hilfspersonal "/>
+			<value value="medizinisches Hilfspersonal"/>
 		</designation>
 	</concept>
 	<concept>
@@ -1008,7 +1008,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="Büroangestellte(r) "/>
+			<value value="Büroangestellte(r)"/>
 		</designation>
 	</concept>
 	<concept>
@@ -1188,7 +1188,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="Mund-Kiefer-Gesichtschirurgie "/>
+			<value value="Mund-Kiefer-Gesichtschirurgie"/>
 		</designation>
 	</concept>
 	<concept>
@@ -1208,7 +1208,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="Kinderchirurgie "/>
+			<value value="Kinderchirurgie"/>
 		</designation>
 	</concept>
 	<concept>
@@ -1248,7 +1248,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="Thoraxchirurgie "/>
+			<value value="Thoraxchirurgie"/>
 		</designation>
 	</concept>
 	<concept>
@@ -1408,7 +1408,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="Infektionskrankheit "/>
+			<value value="Infektionskrankheit"/>
 		</designation>
 	</concept>
 	<concept>
@@ -1520,7 +1520,7 @@
 		</designation>
 		<designation>
 			<language value="nl-BE"/>
-			<value value="diëtetiek "/>
+			<value value="diëtetiek"/>
 		</designation>
 		<designation>
 			<language value="fr-BE"/>
@@ -1568,7 +1568,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="Kinder-und Jugendpsychologie "/>
+			<value value="Kinder-und Jugendpsychologie"/>
 		</designation>
 	</concept>
 	<concept>
@@ -2048,7 +2048,7 @@
 		</designation>
 		<designation>
 			<language value="de"/>
-			<value value="Psychologe "/>
+			<value value="Psychologe"/>
 		</designation>
 	</concept>
 	<concept>
