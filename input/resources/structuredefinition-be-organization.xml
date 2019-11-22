@@ -3088,6 +3088,7 @@
       </base>
       <type>
         <code value="Address" />
+			<profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address" />
       </type>
       <condition value="ele-1" />
       <condition value="org-2" />
@@ -4339,26 +4340,12 @@
     <element id="Organization.address">
       <path value="Organization.address" />
       <definition value="An address for the organization.&#xD;&#xA;&#xD;&#xA;It is RECOMMENDED to include this when available" />
-    </element>
-    <element id="Organization.address.extension">
-      <path value="Organization.address.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Organization.address.extension:language">
-      <path value="Organization.address.extension" />
-      <sliceName value="language" />
-      <min value="0" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/language" />
+	    <type>
+        <code value="Address" />
+			<profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address" />
       </type>
     </element>
+   
     
   </differential>
 </StructureDefinition>
