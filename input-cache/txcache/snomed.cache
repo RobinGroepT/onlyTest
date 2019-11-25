@@ -7869,3 +7869,34 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364075005"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364075005",
+  "display" : "Heart rate (observable entity)"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "15188001:{363698007=89644007}"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Hearing loss where (and Finding site = Left ear)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

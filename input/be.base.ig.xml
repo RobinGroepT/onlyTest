@@ -196,7 +196,28 @@
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole"/>
       <groupingId value="examples"/>
     </resource>
+	
+				 <resource>
+      <reference>
+         <reference value="Observation/observation1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Observation1"/>
+      <description value="Observation heart rate"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <groupingId value="examples"/>
+    </resource>
     
+					 <resource>
+      <reference>
+         <reference value="Observation/observation2"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Observation2"/>
+      <description value="Observation hard of hearing"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <groupingId value="examples"/>
+    </resource>
 	    <resource>
       <reference>
         <reference value="StructureDefinition/be-practitionerrole"/>
