@@ -226,7 +226,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="AllergyIntolerance1"/>
       <description value="Food allergy"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance"/>
       <groupingId value="examples"/>
     </resource>
 	
@@ -237,7 +237,28 @@
       <fhirVersion value="4.0.1"/>
       <name value="AllergyIntolerance2"/>
       <description value="Pollen allergy with multiple reactions"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance"/>
+      <groupingId value="examples"/>
+    </resource>
+							 <resource>
+      <reference>
+         <reference value="Provenance/provenance1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Provenance1"/>
+      <description value="Provenance"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-provenance"/>
+      <groupingId value="examples"/>
+    </resource>
+	
+								 <resource>
+      <reference>
+         <reference value="Bundle/bundle1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Bundle1"/>
+      <description value="Bundle transaction upload with provenance of creation of practitioner"/>
+      
       <groupingId value="examples"/>
     </resource>
 	
