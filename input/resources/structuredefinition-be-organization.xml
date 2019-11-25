@@ -2682,7 +2682,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-HCPARTY" />
+      <fixedUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -2758,7 +2758,7 @@
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)." />
       <comment value="Note that FHIR strings SHALL NOT exceed 1MB in size" />
       <requirements value="Need to refer to a particular code in the system." />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="Coding.code" />
@@ -4331,8 +4331,17 @@
     </element>
     <element id="Organization.type:CD-HCPARTY.coding.system">
       <path value="Organization.type.coding.system" />
-      <fixedUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-HCPARTY" />
+      <fixedUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty" />
     </element>
+    
+ <element id="Organization.type:CD-HCPARTY.coding.code">
+      <path value="Organization.type.coding.code" />
+ 
+      <min value="1" />
+      <max value="1" />    
+    </element>
+    
+    
     <element id="Organization.telecom">
       <path value="Organization.telecom" />
       <definition value="A contact detail for the organization.&#xD;&#xA;&#xD;&#xA;It is RECOMMENDED to at least add one phone or email address." />
