@@ -5,6 +5,73 @@
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
+        "code" : "447694001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Respiratory tract route"
+        }]
+      },
+      {
+        "code" : "6064005",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Topical route"
+        }]
+      },
+      {
+        "code" : "26643006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oral route"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:c49403a2-c515-45a1-aadb-fcdc1fafe8b2",
+    "timestamp" : "2019-11-25T08:29:16.753Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "447694001",
+      "display" : "Respiratory tract route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6064005",
+      "display" : "Topical route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26643006",
+      "display" : "Oral route"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
         "code" : "373270004",
         "designation" : [{
           "language" : "en",
@@ -12,7 +79,7 @@
         },
         {
           "language" : "fr-BE",
-          "value" : "la pénicilline"
+          "value" : "la pénicilline "
         },
         {
           "language" : "nl-BE",
@@ -31,7 +98,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Aardappel"
+          "value" : " Aardappel"
         }]
       },
       {
@@ -46,7 +113,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Aardbei"
+          "value" : " Aardbei"
         }]
       },
       {
@@ -61,7 +128,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Albumine"
+          "value" : " Albumine"
         }]
       },
       {
@@ -76,7 +143,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Amandelolie"
+          "value" : " Amandelolie"
         }]
       },
       {
@@ -91,7 +158,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Appel"
+          "value" : " Appel"
         }]
       },
       {
@@ -106,7 +173,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Appelsap"
+          "value" : " Appelsap"
         }]
       },
       {
@@ -121,7 +188,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Aroma’s"
+          "value" : " Aroma’s"
         }]
       },
       {
@@ -136,7 +203,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "aspartaam"
+          "value" : " aspartaam"
         }]
       },
       {
@@ -151,7 +218,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Banaan"
+          "value" : " Banaan"
         }]
       },
       {
@@ -166,7 +233,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Boon"
+          "value" : " Boon"
         }]
       },
       {
@@ -181,7 +248,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "cacao boter"
+          "value" : " cacao boter"
         }]
       },
       {
@@ -196,7 +263,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "champignon"
+          "value" : " champignon"
         }]
       },
       {
@@ -211,7 +278,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Chocolade"
+          "value" : " Chocolade"
         }]
       },
       {
@@ -226,7 +293,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "citraat"
+          "value" : " citraat"
         }]
       },
       {
@@ -241,7 +308,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Citrus"
+          "value" : " Citrus"
         }]
       },
       {
@@ -256,7 +323,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "dieetproducten"
+          "value" : " dieetproducten"
         }]
       },
       {
@@ -271,7 +338,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Ei eiwit"
+          "value" : " Ei eiwit"
         }]
       },
       {
@@ -286,7 +353,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "eieren"
+          "value" : " eieren"
         }]
       },
       {
@@ -301,7 +368,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Eiwit"
+          "value" : " Eiwit"
         }]
       },
       {
@@ -316,7 +383,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Eucalyptus olie"
+          "value" : " Eucalyptus olie"
         }]
       },
       {
@@ -331,7 +398,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Framboos"
+          "value" : " Framboos"
         }]
       },
       {
@@ -342,11 +409,11 @@
         },
         {
           "language" : "fr-BE",
-          "value" : "fruit"
+          "value" : "fruit "
         },
         {
           "language" : "nl-BE",
-          "value" : "Fruit"
+          "value" : " Fruit"
         }]
       },
       {
@@ -361,7 +428,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Garnalen"
+          "value" : " Garnalen"
         }]
       },
       {
@@ -376,7 +443,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Gedroogde groenten"
+          "value" : " Gedroogde groenten"
         }]
       },
       {
@@ -391,7 +458,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Gevogelte"
+          "value" : " Gevogelte"
         }]
       },
       {
@@ -406,7 +473,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Glutamaat"
+          "value" : " Glutamaat"
         }]
       },
       {
@@ -421,7 +488,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Gluten"
+          "value" : " Gluten"
         }]
       },
       {
@@ -436,7 +503,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Granen"
+          "value" : " Granen"
         }]
       },
       {
@@ -451,7 +518,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Haver"
+          "value" : " Haver"
         }]
       },
       {
@@ -466,7 +533,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Hazelnoot"
+          "value" : " Hazelnoot"
         }]
       },
       {
@@ -481,7 +548,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Kaas"
+          "value" : " Kaas"
         }]
       },
       {
@@ -496,7 +563,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Kaneel"
+          "value" : " Kaneel"
         }]
       },
       {
@@ -511,7 +578,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Kers"
+          "value" : " Kers"
         }]
       },
       {
@@ -526,7 +593,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Kiwi"
+          "value" : " Kiwi"
         }]
       },
       {
@@ -541,7 +608,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "koe melkeiwit"
+          "value" : " koe melkeiwit"
         }]
       },
       {
@@ -556,7 +623,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Kreeft"
+          "value" : " Kreeft"
         }]
       },
       {
@@ -571,7 +638,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "kruiden en specerijen"
+          "value" : " kruiden en specerijen"
         }]
       },
       {
@@ -586,7 +653,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Lactose"
+          "value" : " Lactose"
         }]
       },
       {
@@ -601,7 +668,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "levensmiddelenadditief"
+          "value" : " levensmiddelenadditief"
         }]
       },
       {
@@ -616,7 +683,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Look"
+          "value" : " Look"
         }]
       },
       {
@@ -631,7 +698,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Maïs"
+          "value" : " Maïs"
         }]
       },
       {
@@ -646,7 +713,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Melkproducten"
+          "value" : " Melkproducten"
         }]
       },
       {
@@ -661,7 +728,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Meloen"
+          "value" : " Meloen"
         }]
       },
       {
@@ -676,7 +743,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Mosterd"
+          "value" : " Mosterd"
         }]
       },
       {
@@ -691,7 +758,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Noten"
+          "value" : " Noten"
         }]
       },
       {
@@ -706,7 +773,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Noten en granen"
+          "value" : " Noten en granen"
         }]
       },
       {
@@ -721,7 +788,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Octopus"
+          "value" : " Octopus"
         }]
       },
       {
@@ -736,7 +803,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Oester"
+          "value" : " Oester"
         }]
       },
       {
@@ -751,7 +818,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Perzik"
+          "value" : " Perzik"
         }]
       },
       {
@@ -766,7 +833,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Pinda"
+          "value" : " Pinda"
         }]
       },
       {
@@ -781,7 +848,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "pindanoten"
+          "value" : " pindanoten"
         }]
       },
       {
@@ -796,7 +863,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Rijst"
+          "value" : " Rijst"
         }]
       },
       {
@@ -811,7 +878,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Rogge"
+          "value" : " Rogge"
         }]
       },
       {
@@ -826,7 +893,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Rood vlees"
+          "value" : " Rood vlees"
         }]
       },
       {
@@ -841,7 +908,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Rood vlees"
+          "value" : " Rood vlees"
         }]
       },
       {
@@ -856,7 +923,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Schaaldieren"
+          "value" : " Schaaldieren"
         }]
       },
       {
@@ -871,7 +938,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Selder"
+          "value" : " Selder"
         }]
       },
       {
@@ -886,7 +953,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Sesamzaad"
+          "value" : " Sesamzaad"
         }]
       },
       {
@@ -901,7 +968,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "soja"
+          "value" : " soja"
         }]
       },
       {
@@ -916,7 +983,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "soja-eiwit"
+          "value" : " soja-eiwit"
         }]
       },
       {
@@ -931,7 +998,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Squid"
+          "value" : " Squid"
         }]
       },
       {
@@ -946,7 +1013,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Tarwe"
+          "value" : " Tarwe"
         }]
       },
       {
@@ -961,7 +1028,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Tomaat"
+          "value" : " Tomaat"
         }]
       },
       {
@@ -976,7 +1043,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Tonijn"
+          "value" : " Tonijn"
         }]
       },
       {
@@ -991,7 +1058,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Ui"
+          "value" : " Ui"
         }]
       },
       {
@@ -1006,7 +1073,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Varkensvlees"
+          "value" : " Varkensvlees"
         }]
       },
       {
@@ -1021,7 +1088,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Vijgen"
+          "value" : " Vijgen"
         }]
       },
       {
@@ -1036,7 +1103,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Vis"
+          "value" : " Vis"
         }]
       },
       {
@@ -1051,7 +1118,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Vis afgeleid omega-3 vetzuur"
+          "value" : " Vis afgeleid omega-3 vetzuur"
         }]
       },
       {
@@ -1066,7 +1133,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Visolie"
+          "value" : " Visolie"
         }]
       },
       {
@@ -1081,7 +1148,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Watermeloen"
+          "value" : " Watermeloen"
         }]
       },
       {
@@ -1096,7 +1163,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Wortel"
+          "value" : " Wortel"
         }]
       },
       {
@@ -1111,7 +1178,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Zaden"
+          "value" : " Zaden"
         }]
       },
       {
@@ -1126,7 +1193,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Zeevruchten"
+          "value" : " Zeevruchten"
         }]
       },
       {
@@ -1141,7 +1208,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Aan hechtdraad gerelateerde allergeen"
+          "value" : " Aan hechtdraad gerelateerde allergeen"
         }]
       },
       {
@@ -1156,7 +1223,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Aluminium en aluminium verbindingen"
+          "value" : " Aluminium en aluminium verbindingen"
         }]
       },
       {
@@ -1171,7 +1238,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Ambrosia stuifmeel"
+          "value" : " Ambrosia stuifmeel"
         }]
       },
       {
@@ -1186,7 +1253,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Azelaïnezuur"
+          "value" : " Azelaïnezuur"
         }]
       },
       {
@@ -1201,7 +1268,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Benzoylperoxide"
+          "value" : " Benzoylperoxide"
         }]
       },
       {
@@ -1216,7 +1283,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Bestrijdingsmiddelen"
+          "value" : " Bestrijdingsmiddelen"
         }]
       },
       {
@@ -1231,7 +1298,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Bijengif"
+          "value" : " Bijengif"
         }]
       },
       {
@@ -1246,7 +1313,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Biocide"
+          "value" : " Biocide"
         }]
       },
       {
@@ -1261,7 +1328,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Boom hars"
+          "value" : " Boom hars"
         }]
       },
       {
@@ -1276,7 +1343,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Bosbessen"
+          "value" : " Bosbessen"
         }]
       },
       {
@@ -1291,7 +1358,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Carbaryl"
+          "value" : " Carbaryl"
         }]
       },
       {
@@ -1306,7 +1373,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Chemicaliën of externe"
+          "value" : " Chemicaliën of externe"
         }]
       },
       {
@@ -1321,7 +1388,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Clostridium Botulinetoxine"
+          "value" : " Clostridium Botulinetoxine"
         }]
       },
       {
@@ -1336,7 +1403,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Contact allergeen"
+          "value" : " Contact allergeen"
         }]
       },
       {
@@ -1351,7 +1418,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Cosmetica"
+          "value" : " Cosmetica"
         }]
       },
       {
@@ -1366,7 +1433,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Cypress stuifmeel"
+          "value" : " Cypress stuifmeel"
         }]
       },
       {
@@ -1381,7 +1448,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Dierlijke eiwitten en epidermale allergeen"
+          "value" : " Dierlijke eiwitten en epidermale allergeen"
         }]
       },
       {
@@ -1396,7 +1463,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Dierlijke haren"
+          "value" : " Dierlijke haren"
         }]
       },
       {
@@ -1411,7 +1478,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Dierlijke huidschilfers"
+          "value" : " Dierlijke huidschilfers"
         }]
       },
       {
@@ -1426,7 +1493,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Dimeticon"
+          "value" : " Dimeticon"
         }]
       },
       {
@@ -1441,7 +1508,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Ditranol"
+          "value" : " Ditranol"
         }]
       },
       {
@@ -1456,7 +1523,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Eiwit van muizenurine"
+          "value" : " Eiwit van muizenurine"
         }]
       },
       {
@@ -1471,7 +1538,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Epitheel van muis"
+          "value" : " Epitheel van muis"
         }]
       },
       {
@@ -1486,7 +1553,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Ethanolamine"
+          "value" : " Ethanolamine"
         }]
       },
       {
@@ -1501,7 +1568,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Gele paraffine"
+          "value" : " Gele paraffine"
         }]
       },
       {
@@ -1516,7 +1583,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Geperfluoreerde"
+          "value" : " Geperfluoreerde"
         }]
       },
       {
@@ -1531,7 +1598,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Goud"
+          "value" : " Goud"
         }]
       },
       {
@@ -1546,7 +1613,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Haarkleurmiddelen"
+          "value" : " Haarkleurmiddelen"
         }]
       },
       {
@@ -1561,7 +1628,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Hond huidschilfers"
+          "value" : " Hond huidschilfers"
         }]
       },
       {
@@ -1576,7 +1643,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Hout"
+          "value" : " Hout"
         }]
       },
       {
@@ -1591,7 +1658,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Huisstof"
+          "value" : " Huisstof"
         }]
       },
       {
@@ -1606,7 +1673,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Huisstof allergeen"
+          "value" : " Huisstof allergeen"
         }]
       },
       {
@@ -1621,7 +1688,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Ijzer"
+          "value" : " Ijzer"
         }]
       },
       {
@@ -1636,7 +1703,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Insect allergeen"
+          "value" : " Insect allergeen"
         }]
       },
       {
@@ -1651,7 +1718,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Insectengif"
+          "value" : " Insectengif"
         }]
       },
       {
@@ -1666,7 +1733,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Judaica stuifmeel"
+          "value" : " Judaica stuifmeel"
         }]
       },
       {
@@ -1681,7 +1748,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Kat huidschilfers"
+          "value" : " Kat huidschilfers"
         }]
       },
       {
@@ -1696,7 +1763,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Katoenen vezels"
+          "value" : " Katoenen vezels"
         }]
       },
       {
@@ -1711,7 +1778,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Kleurstof"
+          "value" : " Kleurstof"
         }]
       },
       {
@@ -1726,7 +1793,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Koe huidschilfers"
+          "value" : " Koe huidschilfers"
         }]
       },
       {
@@ -1741,7 +1808,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Konijn huidschilfers"
+          "value" : " Konijn huidschilfers"
         }]
       },
       {
@@ -1756,7 +1823,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Koper"
+          "value" : " Koper"
         }]
       },
       {
@@ -1771,7 +1838,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Lanoline"
+          "value" : " Lanoline"
         }]
       },
       {
@@ -1786,7 +1853,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Lanoline"
+          "value" : " Lanoline"
         }]
       },
       {
@@ -1801,7 +1868,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Lijm"
+          "value" : " Lijm"
         }]
       },
       {
@@ -1816,7 +1883,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Messing"
+          "value" : " Messing"
         }]
       },
       {
@@ -1831,7 +1898,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Metaal"
+          "value" : " Metaal"
         }]
       },
       {
@@ -1846,7 +1913,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Methylbenzethonium chloride"
+          "value" : " Methylbenzethonium chloride"
         }]
       },
       {
@@ -1861,7 +1928,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "nikkel"
+          "value" : " nikkel"
         }]
       },
       {
@@ -1876,7 +1943,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Olijfboom stuifmeel"
+          "value" : " Olijfboom stuifmeel"
         }]
       },
       {
@@ -1891,7 +1958,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Onkruid stuifmeel"
+          "value" : " Onkruid stuifmeel"
         }]
       },
       {
@@ -1906,7 +1973,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Organofosforverbinding (insecticide)"
+          "value" : " Organofosforverbinding (insecticide)"
         }]
       },
       {
@@ -1921,7 +1988,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Paard huidschilfers"
+          "value" : " Paard huidschilfers"
         }]
       },
       {
@@ -1936,7 +2003,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Paraffine"
+          "value" : " Paraffine"
         }]
       },
       {
@@ -1951,7 +2018,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Parfum"
+          "value" : " Parfum"
         }]
       },
       {
@@ -1966,7 +2033,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Planten"
+          "value" : " Planten"
         }]
       },
       {
@@ -1981,7 +2048,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Podophyllin"
+          "value" : " Podophyllin"
         }]
       },
       {
@@ -1996,7 +2063,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Pollen"
+          "value" : " Pollen"
         }]
       },
       {
@@ -2011,7 +2078,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Polyvinylalcohol"
+          "value" : " Polyvinylalcohol"
         }]
       },
       {
@@ -2026,7 +2093,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Pyrethroïde insecticide"
+          "value" : " Pyrethroïde insecticide"
         }]
       },
       {
@@ -2041,7 +2108,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Rubber"
+          "value" : " Rubber"
         }]
       },
       {
@@ -2056,7 +2123,7 @@
         },
         {
           "language" : "nl-BE",
-          "value" : "Samengestelde organochlore (bestrijdingsmiddelen)"
+          "value" : " Samengestelde organochlore (bestrijdingsmiddelen)"
         }]
       }]
     }]
@@ -2066,8 +2133,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:72014062-9a60-447c-a376-77f0a2242c5e",
-    "timestamp" : "2019-11-16T14:27:42.874Z",
+    "identifier" : "urn:uuid:2d278499-7836-40bd-92e2-752b66b32152",
+    "timestamp" : "2019-11-25T08:29:17.456Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -2862,7 +2929,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Bulleuze eruptie"
+          "value" : "XX"
         }]
       },
       {
@@ -2952,7 +3019,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Drug eruption met eosinofilie \r\nen systemische symptomen"
+          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
         }]
       },
       {
@@ -3217,8 +3284,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:bd29906b-fc9f-4a9f-a49e-bcf3a11c5c1b",
-    "timestamp" : "2019-11-16T14:27:44.093Z",
+    "identifier" : "urn:uuid:be8b21d9-8c71-4441-9bbb-963beda7178a",
+    "timestamp" : "2019-11-25T08:29:18.659Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -3259,7 +3326,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "271759003",
-      "display" : "Bulleuze eruptie"
+      "display" : "XX"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -3289,7 +3356,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "702809001",
-      "display" : "Drug eruption met eosinofilie \r\nen systemische symptomen"
+      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -3387,6 +3454,69 @@ e: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
+        "code" : "447694001",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Respiratory tract route"
+        }]
+      },
+      {
+        "code" : "6064005",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Topical route"
+        }]
+      },
+      {
+        "code" : "26643006",
+        "designation" : [{
+          "language" : "en",
+          "value" : "Oral route"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:4e00a97a-df74-4827-9e02-5e6c74a9943e",
+    "timestamp" : "2019-11-25T08:29:35.253Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "447694001",
+      "display" : "Respiratory tract route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6064005",
+      "display" : "Topical route"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26643006",
+      "display" : "Oral route"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
         "code" : "373270004",
         "designation" : [{
           "language" : "en",
@@ -3394,7 +3524,7 @@ e: {
         },
         {
           "language" : "fr-BE",
-          "value" : "la pénicilline"
+          "value" : "la pénicilline "
         },
         {
           "language" : "nl-BE",
@@ -3413,7 +3543,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Aardappel"
+          "value" : " Aardappel"
         }]
       },
       {
@@ -3428,7 +3558,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Aardbei"
+          "value" : " Aardbei"
         }]
       },
       {
@@ -3443,7 +3573,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Albumine"
+          "value" : " Albumine"
         }]
       },
       {
@@ -3458,7 +3588,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Amandelolie"
+          "value" : " Amandelolie"
         }]
       },
       {
@@ -3473,7 +3603,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Appel"
+          "value" : " Appel"
         }]
       },
       {
@@ -3488,7 +3618,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Appelsap"
+          "value" : " Appelsap"
         }]
       },
       {
@@ -3503,7 +3633,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Aroma’s"
+          "value" : " Aroma’s"
         }]
       },
       {
@@ -3518,7 +3648,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "aspartaam"
+          "value" : " aspartaam"
         }]
       },
       {
@@ -3533,7 +3663,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Banaan"
+          "value" : " Banaan"
         }]
       },
       {
@@ -3548,7 +3678,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Boon"
+          "value" : " Boon"
         }]
       },
       {
@@ -3563,7 +3693,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "cacao boter"
+          "value" : " cacao boter"
         }]
       },
       {
@@ -3578,7 +3708,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "champignon"
+          "value" : " champignon"
         }]
       },
       {
@@ -3593,7 +3723,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Chocolade"
+          "value" : " Chocolade"
         }]
       },
       {
@@ -3608,7 +3738,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "citraat"
+          "value" : " citraat"
         }]
       },
       {
@@ -3623,7 +3753,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Citrus"
+          "value" : " Citrus"
         }]
       },
       {
@@ -3638,7 +3768,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "dieetproducten"
+          "value" : " dieetproducten"
         }]
       },
       {
@@ -3653,7 +3783,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Ei eiwit"
+          "value" : " Ei eiwit"
         }]
       },
       {
@@ -3668,7 +3798,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "eieren"
+          "value" : " eieren"
         }]
       },
       {
@@ -3683,7 +3813,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Eiwit"
+          "value" : " Eiwit"
         }]
       },
       {
@@ -3698,7 +3828,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Eucalyptus olie"
+          "value" : " Eucalyptus olie"
         }]
       },
       {
@@ -3713,7 +3843,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Framboos"
+          "value" : " Framboos"
         }]
       },
       {
@@ -3724,11 +3854,11 @@ e: {
         },
         {
           "language" : "fr-BE",
-          "value" : "fruit"
+          "value" : "fruit "
         },
         {
           "language" : "nl-BE",
-          "value" : "Fruit"
+          "value" : " Fruit"
         }]
       },
       {
@@ -3743,7 +3873,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Garnalen"
+          "value" : " Garnalen"
         }]
       },
       {
@@ -3758,7 +3888,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Gedroogde groenten"
+          "value" : " Gedroogde groenten"
         }]
       },
       {
@@ -3773,7 +3903,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Gevogelte"
+          "value" : " Gevogelte"
         }]
       },
       {
@@ -3788,7 +3918,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Glutamaat"
+          "value" : " Glutamaat"
         }]
       },
       {
@@ -3803,7 +3933,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Gluten"
+          "value" : " Gluten"
         }]
       },
       {
@@ -3818,7 +3948,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Granen"
+          "value" : " Granen"
         }]
       },
       {
@@ -3833,7 +3963,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Haver"
+          "value" : " Haver"
         }]
       },
       {
@@ -3848,7 +3978,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Hazelnoot"
+          "value" : " Hazelnoot"
         }]
       },
       {
@@ -3863,7 +3993,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Kaas"
+          "value" : " Kaas"
         }]
       },
       {
@@ -3878,7 +4008,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Kaneel"
+          "value" : " Kaneel"
         }]
       },
       {
@@ -3893,7 +4023,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Kers"
+          "value" : " Kers"
         }]
       },
       {
@@ -3908,7 +4038,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Kiwi"
+          "value" : " Kiwi"
         }]
       },
       {
@@ -3923,7 +4053,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "koe melkeiwit"
+          "value" : " koe melkeiwit"
         }]
       },
       {
@@ -3938,7 +4068,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Kreeft"
+          "value" : " Kreeft"
         }]
       },
       {
@@ -3953,7 +4083,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "kruiden en specerijen"
+          "value" : " kruiden en specerijen"
         }]
       },
       {
@@ -3968,7 +4098,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Lactose"
+          "value" : " Lactose"
         }]
       },
       {
@@ -3983,7 +4113,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "levensmiddelenadditief"
+          "value" : " levensmiddelenadditief"
         }]
       },
       {
@@ -3998,7 +4128,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Look"
+          "value" : " Look"
         }]
       },
       {
@@ -4013,7 +4143,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Maïs"
+          "value" : " Maïs"
         }]
       },
       {
@@ -4028,7 +4158,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Melkproducten"
+          "value" : " Melkproducten"
         }]
       },
       {
@@ -4043,7 +4173,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Meloen"
+          "value" : " Meloen"
         }]
       },
       {
@@ -4058,7 +4188,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Mosterd"
+          "value" : " Mosterd"
         }]
       },
       {
@@ -4073,7 +4203,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Noten"
+          "value" : " Noten"
         }]
       },
       {
@@ -4088,7 +4218,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Noten en granen"
+          "value" : " Noten en granen"
         }]
       },
       {
@@ -4103,7 +4233,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Octopus"
+          "value" : " Octopus"
         }]
       },
       {
@@ -4118,7 +4248,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Oester"
+          "value" : " Oester"
         }]
       },
       {
@@ -4133,7 +4263,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Perzik"
+          "value" : " Perzik"
         }]
       },
       {
@@ -4148,7 +4278,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Pinda"
+          "value" : " Pinda"
         }]
       },
       {
@@ -4163,7 +4293,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "pindanoten"
+          "value" : " pindanoten"
         }]
       },
       {
@@ -4178,7 +4308,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Rijst"
+          "value" : " Rijst"
         }]
       },
       {
@@ -4193,7 +4323,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Rogge"
+          "value" : " Rogge"
         }]
       },
       {
@@ -4208,7 +4338,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Rood vlees"
+          "value" : " Rood vlees"
         }]
       },
       {
@@ -4223,7 +4353,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Rood vlees"
+          "value" : " Rood vlees"
         }]
       },
       {
@@ -4238,7 +4368,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Schaaldieren"
+          "value" : " Schaaldieren"
         }]
       },
       {
@@ -4253,7 +4383,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Selder"
+          "value" : " Selder"
         }]
       },
       {
@@ -4268,7 +4398,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Sesamzaad"
+          "value" : " Sesamzaad"
         }]
       },
       {
@@ -4283,7 +4413,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "soja"
+          "value" : " soja"
         }]
       },
       {
@@ -4298,7 +4428,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "soja-eiwit"
+          "value" : " soja-eiwit"
         }]
       },
       {
@@ -4313,7 +4443,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Squid"
+          "value" : " Squid"
         }]
       },
       {
@@ -4328,7 +4458,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Tarwe"
+          "value" : " Tarwe"
         }]
       },
       {
@@ -4343,7 +4473,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Tomaat"
+          "value" : " Tomaat"
         }]
       },
       {
@@ -4358,7 +4488,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Tonijn"
+          "value" : " Tonijn"
         }]
       },
       {
@@ -4373,7 +4503,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Ui"
+          "value" : " Ui"
         }]
       },
       {
@@ -4388,7 +4518,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Varkensvlees"
+          "value" : " Varkensvlees"
         }]
       },
       {
@@ -4403,7 +4533,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Vijgen"
+          "value" : " Vijgen"
         }]
       },
       {
@@ -4418,7 +4548,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Vis"
+          "value" : " Vis"
         }]
       },
       {
@@ -4433,7 +4563,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Vis afgeleid omega-3 vetzuur"
+          "value" : " Vis afgeleid omega-3 vetzuur"
         }]
       },
       {
@@ -4448,7 +4578,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Visolie"
+          "value" : " Visolie"
         }]
       },
       {
@@ -4463,7 +4593,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Watermeloen"
+          "value" : " Watermeloen"
         }]
       },
       {
@@ -4478,7 +4608,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Wortel"
+          "value" : " Wortel"
         }]
       },
       {
@@ -4493,7 +4623,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Zaden"
+          "value" : " Zaden"
         }]
       },
       {
@@ -4508,7 +4638,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Zeevruchten"
+          "value" : " Zeevruchten"
         }]
       },
       {
@@ -4523,7 +4653,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Aan hechtdraad gerelateerde allergeen"
+          "value" : " Aan hechtdraad gerelateerde allergeen"
         }]
       },
       {
@@ -4538,7 +4668,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Aluminium en aluminium verbindingen"
+          "value" : " Aluminium en aluminium verbindingen"
         }]
       },
       {
@@ -4553,7 +4683,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Ambrosia stuifmeel"
+          "value" : " Ambrosia stuifmeel"
         }]
       },
       {
@@ -4568,7 +4698,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Azelaïnezuur"
+          "value" : " Azelaïnezuur"
         }]
       },
       {
@@ -4583,7 +4713,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Benzoylperoxide"
+          "value" : " Benzoylperoxide"
         }]
       },
       {
@@ -4598,7 +4728,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Bestrijdingsmiddelen"
+          "value" : " Bestrijdingsmiddelen"
         }]
       },
       {
@@ -4613,7 +4743,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Bijengif"
+          "value" : " Bijengif"
         }]
       },
       {
@@ -4628,7 +4758,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Biocide"
+          "value" : " Biocide"
         }]
       },
       {
@@ -4643,7 +4773,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Boom hars"
+          "value" : " Boom hars"
         }]
       },
       {
@@ -4658,7 +4788,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Bosbessen"
+          "value" : " Bosbessen"
         }]
       },
       {
@@ -4673,7 +4803,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Carbaryl"
+          "value" : " Carbaryl"
         }]
       },
       {
@@ -4688,7 +4818,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Chemicaliën of externe"
+          "value" : " Chemicaliën of externe"
         }]
       },
       {
@@ -4703,7 +4833,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Clostridium Botulinetoxine"
+          "value" : " Clostridium Botulinetoxine"
         }]
       },
       {
@@ -4718,7 +4848,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Contact allergeen"
+          "value" : " Contact allergeen"
         }]
       },
       {
@@ -4733,7 +4863,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Cosmetica"
+          "value" : " Cosmetica"
         }]
       },
       {
@@ -4748,7 +4878,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Cypress stuifmeel"
+          "value" : " Cypress stuifmeel"
         }]
       },
       {
@@ -4763,7 +4893,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Dierlijke eiwitten en epidermale allergeen"
+          "value" : " Dierlijke eiwitten en epidermale allergeen"
         }]
       },
       {
@@ -4778,7 +4908,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Dierlijke haren"
+          "value" : " Dierlijke haren"
         }]
       },
       {
@@ -4793,7 +4923,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Dierlijke huidschilfers"
+          "value" : " Dierlijke huidschilfers"
         }]
       },
       {
@@ -4808,7 +4938,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Dimeticon"
+          "value" : " Dimeticon"
         }]
       },
       {
@@ -4823,7 +4953,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Ditranol"
+          "value" : " Ditranol"
         }]
       },
       {
@@ -4838,7 +4968,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Eiwit van muizenurine"
+          "value" : " Eiwit van muizenurine"
         }]
       },
       {
@@ -4853,7 +4983,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Epitheel van muis"
+          "value" : " Epitheel van muis"
         }]
       },
       {
@@ -4868,7 +4998,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Ethanolamine"
+          "value" : " Ethanolamine"
         }]
       },
       {
@@ -4883,7 +5013,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Gele paraffine"
+          "value" : " Gele paraffine"
         }]
       },
       {
@@ -4898,7 +5028,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Geperfluoreerde"
+          "value" : " Geperfluoreerde"
         }]
       },
       {
@@ -4913,7 +5043,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Goud"
+          "value" : " Goud"
         }]
       },
       {
@@ -4928,7 +5058,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Haarkleurmiddelen"
+          "value" : " Haarkleurmiddelen"
         }]
       },
       {
@@ -4943,7 +5073,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Hond huidschilfers"
+          "value" : " Hond huidschilfers"
         }]
       },
       {
@@ -4958,7 +5088,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Hout"
+          "value" : " Hout"
         }]
       },
       {
@@ -4973,7 +5103,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Huisstof"
+          "value" : " Huisstof"
         }]
       },
       {
@@ -4988,7 +5118,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Huisstof allergeen"
+          "value" : " Huisstof allergeen"
         }]
       },
       {
@@ -5003,7 +5133,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Ijzer"
+          "value" : " Ijzer"
         }]
       },
       {
@@ -5018,7 +5148,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Insect allergeen"
+          "value" : " Insect allergeen"
         }]
       },
       {
@@ -5033,7 +5163,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Insectengif"
+          "value" : " Insectengif"
         }]
       },
       {
@@ -5048,7 +5178,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Judaica stuifmeel"
+          "value" : " Judaica stuifmeel"
         }]
       },
       {
@@ -5063,7 +5193,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Kat huidschilfers"
+          "value" : " Kat huidschilfers"
         }]
       },
       {
@@ -5078,7 +5208,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Katoenen vezels"
+          "value" : " Katoenen vezels"
         }]
       },
       {
@@ -5093,7 +5223,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Kleurstof"
+          "value" : " Kleurstof"
         }]
       },
       {
@@ -5108,7 +5238,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Koe huidschilfers"
+          "value" : " Koe huidschilfers"
         }]
       },
       {
@@ -5123,7 +5253,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Konijn huidschilfers"
+          "value" : " Konijn huidschilfers"
         }]
       },
       {
@@ -5138,7 +5268,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Koper"
+          "value" : " Koper"
         }]
       },
       {
@@ -5153,7 +5283,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Lanoline"
+          "value" : " Lanoline"
         }]
       },
       {
@@ -5168,7 +5298,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Lanoline"
+          "value" : " Lanoline"
         }]
       },
       {
@@ -5183,7 +5313,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Lijm"
+          "value" : " Lijm"
         }]
       },
       {
@@ -5198,7 +5328,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Messing"
+          "value" : " Messing"
         }]
       },
       {
@@ -5213,7 +5343,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Metaal"
+          "value" : " Metaal"
         }]
       },
       {
@@ -5228,7 +5358,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Methylbenzethonium chloride"
+          "value" : " Methylbenzethonium chloride"
         }]
       },
       {
@@ -5243,7 +5373,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "nikkel"
+          "value" : " nikkel"
         }]
       },
       {
@@ -5258,7 +5388,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Olijfboom stuifmeel"
+          "value" : " Olijfboom stuifmeel"
         }]
       },
       {
@@ -5273,7 +5403,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Onkruid stuifmeel"
+          "value" : " Onkruid stuifmeel"
         }]
       },
       {
@@ -5288,7 +5418,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Organofosforverbinding (insecticide)"
+          "value" : " Organofosforverbinding (insecticide)"
         }]
       },
       {
@@ -5303,7 +5433,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Paard huidschilfers"
+          "value" : " Paard huidschilfers"
         }]
       },
       {
@@ -5318,7 +5448,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Paraffine"
+          "value" : " Paraffine"
         }]
       },
       {
@@ -5333,7 +5463,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Parfum"
+          "value" : " Parfum"
         }]
       },
       {
@@ -5348,7 +5478,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Planten"
+          "value" : " Planten"
         }]
       },
       {
@@ -5363,7 +5493,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Podophyllin"
+          "value" : " Podophyllin"
         }]
       },
       {
@@ -5378,7 +5508,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Pollen"
+          "value" : " Pollen"
         }]
       },
       {
@@ -5393,7 +5523,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Polyvinylalcohol"
+          "value" : " Polyvinylalcohol"
         }]
       },
       {
@@ -5408,7 +5538,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Pyrethroïde insecticide"
+          "value" : " Pyrethroïde insecticide"
         }]
       },
       {
@@ -5423,7 +5553,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Rubber"
+          "value" : " Rubber"
         }]
       },
       {
@@ -5438,7 +5568,7 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Samengestelde organochlore (bestrijdingsmiddelen)"
+          "value" : " Samengestelde organochlore (bestrijdingsmiddelen)"
         }]
       }]
     }]
@@ -5448,8 +5578,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:d3bb2f4b-25c9-4208-8caf-56eb2f33ed56",
-    "timestamp" : "2019-11-16T14:27:50.171Z",
+    "identifier" : "urn:uuid:5dc93794-fdd4-4d95-963a-78bb91bb5fb0",
+    "timestamp" : "2019-11-25T08:29:36.019Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -6240,3181 +6370,6 @@ e: {
         },
         {
           "language" : "nl-BE",
-          "value" : "Bulleuze eruptie"
-        }]
-      },
-      {
-        "code" : "698247007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiac arrhythmia"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Arythmie cardique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Hartritmestoornis"
-        }]
-      },
-      {
-        "code" : "410430005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiorespiratory arrest"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Arrêt cardiorespiratoire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Cardiorespiratoire stilstand"
-        }]
-      },
-      {
-        "code" : "9826008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Conjunctivitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Conjonctivite"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "conjonctivitis"
-        }]
-      },
-      {
-        "code" : "49727002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cough"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Toux"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "hoest"
-        }]
-      },
-      {
-        "code" : "62315008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Diarrhoea"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Diarrhée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "diarree"
-        }]
-      },
-      {
-        "code" : "702809001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Drug reaction with eosinophilia and systemic symptoms"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Syndrome d'hypersensibilité médicamenteuse"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Drug eruption met eosinofilie \r\nen systemische symptomen"
-        }]
-      },
-      {
-        "code" : "162290004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dry eyes"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Sécheresse oculaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "droge ogen"
-        }]
-      },
-      {
-        "code" : "267036007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dyspnea"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Dyspnée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "kortademigheid"
-        }]
-      },
-      {
-        "code" : "43116000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Eczema"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eczéma"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Eczeem"
-        }]
-      },
-      {
-        "code" : "418363000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Itching of skin"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Prurit"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "jeuk"
-        }]
-      },
-      {
-        "code" : "422587007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Nausea"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Nausée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Misselijkheid"
-        }]
-      },
-      {
-        "code" : "359610006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Ocular hyperaemia"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Hyperémie oculaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Oogbeschadigingen en/of hyperemia"
-        }]
-      },
-      {
-        "code" : "51599000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oedema of larynx"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Œdème laryngé"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Oedeem van het strottenhoofd"
-        }]
-      },
-      {
-        "code" : "271757001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Papular eruption"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eruption papulaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Papulaire uitbarsting"
-        }]
-      },
-      {
-        "code" : "70076002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Rhinitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Rhinite"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Rinitis"
-        }]
-      },
-      {
-        "code" : "91175000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Seizure"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Crise épileptique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Epileptische aanval"
-        }]
-      },
-      {
-        "code" : "76067001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Sneezing"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eternuement"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Niezen"
-        }]
-      },
-      {
-        "code" : "73442001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Stevens-Johnson syndrome"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Syndrome de Stevens-Johnson"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Stevens-Johnson syndroom"
-        }]
-      },
-      {
-        "code" : "23924001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Tight chest"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Oppression thoracique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "beklemmende borst"
-        }]
-      },
-      {
-        "code" : "126485001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Urticaria"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Urticaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "netelroos"
-        }]
-      },
-      {
-        "code" : "31996006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vasculitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Vascularite"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Vasculitis"
-        }]
-      },
-      {
-        "code" : "1985008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vomitus"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Vomi"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "braken"
-        }]
-      },
-      {
-        "code" : "247472004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Weal"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Éruption cutanée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Huiduitslag"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:5e03a33c-c941-4827-8707-36b9baec7e76",
-    "timestamp" : "2019-11-16T14:27:50.937Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "39579001",
-      "display" : "anafylaxie"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "41291007",
-      "display" : "angio-oedeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "195967001",
-      "display" : "astma"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "24079001",
-      "display" : "Atopische dermatitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "4386001",
-      "display" : "Bronchospasme"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271759003",
-      "display" : "Bulleuze eruptie"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "698247007",
-      "display" : "Hartritmestoornis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "410430005",
-      "display" : "Cardiorespiratoire stilstand"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "9826008",
-      "display" : "conjonctivitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "49727002",
-      "display" : "hoest"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "62315008",
-      "display" : "diarree"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "702809001",
-      "display" : "Drug eruption met eosinofilie \r\nen systemische symptomen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "162290004",
-      "display" : "droge ogen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "267036007",
-      "display" : "kortademigheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "43116000",
-      "display" : "Eczeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "418363000",
-      "display" : "jeuk"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "422587007",
-      "display" : "Misselijkheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "359610006",
-      "display" : "Oogbeschadigingen en/of hyperemia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "51599000",
-      "display" : "Oedeem van het strottenhoofd"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271757001",
-      "display" : "Papulaire uitbarsting"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "70076002",
-      "display" : "Rinitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "91175000",
-      "display" : "Epileptische aanval"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "76067001",
-      "display" : "Niezen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "73442001",
-      "display" : "Stevens-Johnson syndroom"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23924001",
-      "display" : "beklemmende borst"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "126485001",
-      "display" : "netelroos"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "31996006",
-      "display" : "Vasculitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1985008",
-      "display" : "braken"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "247472004",
-      "display" : "Huiduitslag"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "447694001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Respiratory tract route"
-        }]
-      },
-      {
-        "code" : "6064005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Topical route"
-        }]
-      },
-      {
-        "code" : "26643006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oral route"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:2d6b4e38-56b6-4890-9df7-dc9636df6370",
-    "timestamp" : "2019-11-20T15:25:52.419Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "447694001",
-      "display" : "Respiratory tract route"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "6064005",
-      "display" : "Topical route"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "26643006",
-      "display" : "Oral route"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "447694001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Respiratory tract route"
-        }]
-      },
-      {
-        "code" : "6064005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Topical route"
-        }]
-      },
-      {
-        "code" : "26643006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oral route"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT 11000201108 edition 06-Mar 2017</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-447694001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447694001\">447694001</a></td><td>Respiratory tract route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6064005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6064005\">6064005</a></td><td>Topical route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26643006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26643006\">26643006</a></td><td>Oral route</td><td/></tr></table></div>"
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:727cb8bc-cfd7-4253-ad82-7f2471936aa2",
-    "timestamp" : "2019-11-20T15:26:07.997Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "447694001",
-      "display" : "Respiratory tract route"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "6064005",
-      "display" : "Topical route"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "26643006",
-      "display" : "Oral route"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "39579001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Anaphylaxis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Anaphylaxie"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "anafylaxie"
-        }]
-      },
-      {
-        "code" : "41291007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Angio-oedema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Angio-œdème"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "angio-oedeem"
-        }]
-      },
-      {
-        "code" : "195967001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Asthma"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Asthme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "astma"
-        }]
-      },
-      {
-        "code" : "24079001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Atopic dermatitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dermatite atopique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Atopische dermatitis"
-        }]
-      },
-      {
-        "code" : "4386001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bronchospasm"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Bronchospasme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Bronchospasme"
-        }]
-      },
-      {
-        "code" : "271759003",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bullous eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption bulleuse"
-        },
-        {
-          "language" : "BE-nl"
-        }]
-      },
-      {
-        "code" : "698247007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiac arrhythmia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arythmie cardique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Hartritmestoornis"
-        }]
-      },
-      {
-        "code" : "410430005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiorespiratory arrest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arrêt cardiorespiratoire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Cardiorespiratoire stilstand"
-        }]
-      },
-      {
-        "code" : "9826008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Conjunctivitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Conjonctivite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "conjonctivitis"
-        }]
-      },
-      {
-        "code" : "49727002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cough"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Toux"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "hoest"
-        }]
-      },
-      {
-        "code" : "62315008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Diarrhoea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Diarrhée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "diarree"
-        }]
-      },
-      {
-        "code" : "702809001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Drug reaction with eosinophilia and systemic symptoms"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome d'hypersensibilité médicamenteuse"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
-        }]
-      },
-      {
-        "code" : "162290004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dry eyes"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Sécheresse oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "droge ogen"
-        }]
-      },
-      {
-        "code" : "267036007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dyspnea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dyspnée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "kortademigheid"
-        }]
-      },
-      {
-        "code" : "43116000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Eczema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eczéma"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Eczeem"
-        }]
-      },
-      {
-        "code" : "418363000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Itching of skin"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Prurit"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "jeuk"
-        }]
-      },
-      {
-        "code" : "422587007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Nausea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Nausée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Misselijkheid"
-        }]
-      },
-      {
-        "code" : "359610006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Ocular hyperaemia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Hyperémie oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oogbeschadigingen en/of hyperemia"
-        }]
-      },
-      {
-        "code" : "51599000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oedema of larynx"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Œdème laryngé"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oedeem van het strottenhoofd"
-        }]
-      },
-      {
-        "code" : "271757001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Papular eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption papulaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Papulaire uitbarsting"
-        }]
-      },
-      {
-        "code" : "70076002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Rhinitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Rhinite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Rinitis"
-        }]
-      },
-      {
-        "code" : "91175000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Seizure"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Crise épileptique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Epileptische aanval"
-        }]
-      },
-      {
-        "code" : "76067001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Sneezing"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eternuement"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Niezen"
-        }]
-      },
-      {
-        "code" : "73442001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Stevens-Johnson syndrome"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome de Stevens-Johnson"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Stevens-Johnson syndroom"
-        }]
-      },
-      {
-        "code" : "23924001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Tight chest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Oppression thoracique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "beklemmende borst"
-        }]
-      },
-      {
-        "code" : "126485001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Urticaria"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Urticaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "netelroos"
-        }]
-      },
-      {
-        "code" : "31996006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vasculitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vascularite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Vasculitis"
-        }]
-      },
-      {
-        "code" : "1985008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vomitus"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vomi"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "braken"
-        }]
-      },
-      {
-        "code" : "247472004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Weal"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Éruption cutanée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Huiduitslag"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:2db456ce-c3cd-42b5-8cac-45ed9b60bf31",
-    "timestamp" : "2019-11-20T16:22:56.154Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "39579001",
-      "display" : "anafylaxie"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "41291007",
-      "display" : "angio-oedeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "195967001",
-      "display" : "astma"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "24079001",
-      "display" : "Atopische dermatitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "4386001",
-      "display" : "Bronchospasme"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271759003",
-      "display" : "Bullous eruption"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "698247007",
-      "display" : "Hartritmestoornis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "410430005",
-      "display" : "Cardiorespiratoire stilstand"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "9826008",
-      "display" : "conjonctivitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "49727002",
-      "display" : "hoest"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "62315008",
-      "display" : "diarree"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "702809001",
-      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "162290004",
-      "display" : "droge ogen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "267036007",
-      "display" : "kortademigheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "43116000",
-      "display" : "Eczeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "418363000",
-      "display" : "jeuk"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "422587007",
-      "display" : "Misselijkheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "359610006",
-      "display" : "Oogbeschadigingen en/of hyperemia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "51599000",
-      "display" : "Oedeem van het strottenhoofd"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271757001",
-      "display" : "Papulaire uitbarsting"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "70076002",
-      "display" : "Rinitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "91175000",
-      "display" : "Epileptische aanval"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "76067001",
-      "display" : "Niezen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "73442001",
-      "display" : "Stevens-Johnson syndroom"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23924001",
-      "display" : "beklemmende borst"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "126485001",
-      "display" : "netelroos"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "31996006",
-      "display" : "Vasculitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1985008",
-      "display" : "braken"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "247472004",
-      "display" : "Huiduitslag"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "39579001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Anaphylaxis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Anaphylaxie"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "anafylaxie"
-        }]
-      },
-      {
-        "code" : "41291007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Angio-oedema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Angio-œdème"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "angio-oedeem"
-        }]
-      },
-      {
-        "code" : "195967001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Asthma"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Asthme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "astma"
-        }]
-      },
-      {
-        "code" : "24079001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Atopic dermatitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dermatite atopique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Atopische dermatitis"
-        }]
-      },
-      {
-        "code" : "4386001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bronchospasm"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Bronchospasme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Bronchospasme"
-        }]
-      },
-      {
-        "code" : "271759003",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bullous eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption bulleuse"
-        },
-        {
-          "language" : "BE-nl"
-        }]
-      },
-      {
-        "code" : "698247007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiac arrhythmia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arythmie cardique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Hartritmestoornis"
-        }]
-      },
-      {
-        "code" : "410430005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiorespiratory arrest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arrêt cardiorespiratoire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Cardiorespiratoire stilstand"
-        }]
-      },
-      {
-        "code" : "9826008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Conjunctivitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Conjonctivite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "conjonctivitis"
-        }]
-      },
-      {
-        "code" : "49727002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cough"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Toux"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "hoest"
-        }]
-      },
-      {
-        "code" : "62315008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Diarrhoea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Diarrhée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "diarree"
-        }]
-      },
-      {
-        "code" : "702809001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Drug reaction with eosinophilia and systemic symptoms"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome d'hypersensibilité médicamenteuse"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
-        }]
-      },
-      {
-        "code" : "162290004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dry eyes"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Sécheresse oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "droge ogen"
-        }]
-      },
-      {
-        "code" : "267036007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dyspnea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dyspnée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "kortademigheid"
-        }]
-      },
-      {
-        "code" : "43116000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Eczema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eczéma"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Eczeem"
-        }]
-      },
-      {
-        "code" : "418363000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Itching of skin"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Prurit"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "jeuk"
-        }]
-      },
-      {
-        "code" : "422587007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Nausea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Nausée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Misselijkheid"
-        }]
-      },
-      {
-        "code" : "359610006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Ocular hyperaemia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Hyperémie oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oogbeschadigingen en/of hyperemia"
-        }]
-      },
-      {
-        "code" : "51599000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oedema of larynx"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Œdème laryngé"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oedeem van het strottenhoofd"
-        }]
-      },
-      {
-        "code" : "271757001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Papular eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption papulaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Papulaire uitbarsting"
-        }]
-      },
-      {
-        "code" : "70076002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Rhinitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Rhinite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Rinitis"
-        }]
-      },
-      {
-        "code" : "91175000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Seizure"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Crise épileptique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Epileptische aanval"
-        }]
-      },
-      {
-        "code" : "76067001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Sneezing"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eternuement"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Niezen"
-        }]
-      },
-      {
-        "code" : "73442001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Stevens-Johnson syndrome"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome de Stevens-Johnson"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Stevens-Johnson syndroom"
-        }]
-      },
-      {
-        "code" : "23924001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Tight chest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Oppression thoracique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "beklemmende borst"
-        }]
-      },
-      {
-        "code" : "126485001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Urticaria"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Urticaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "netelroos"
-        }]
-      },
-      {
-        "code" : "31996006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vasculitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vascularite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Vasculitis"
-        }]
-      },
-      {
-        "code" : "1985008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vomitus"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vomi"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "braken"
-        }]
-      },
-      {
-        "code" : "247472004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Weal"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Éruption cutanée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Huiduitslag"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:62059d00-4622-4aef-894e-fbbedb792531",
-    "timestamp" : "2019-11-20T16:23:10.842Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "39579001",
-      "display" : "anafylaxie"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "41291007",
-      "display" : "angio-oedeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "195967001",
-      "display" : "astma"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "24079001",
-      "display" : "Atopische dermatitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "4386001",
-      "display" : "Bronchospasme"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271759003",
-      "display" : "Bullous eruption"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "698247007",
-      "display" : "Hartritmestoornis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "410430005",
-      "display" : "Cardiorespiratoire stilstand"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "9826008",
-      "display" : "conjonctivitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "49727002",
-      "display" : "hoest"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "62315008",
-      "display" : "diarree"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "702809001",
-      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "162290004",
-      "display" : "droge ogen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "267036007",
-      "display" : "kortademigheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "43116000",
-      "display" : "Eczeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "418363000",
-      "display" : "jeuk"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "422587007",
-      "display" : "Misselijkheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "359610006",
-      "display" : "Oogbeschadigingen en/of hyperemia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "51599000",
-      "display" : "Oedeem van het strottenhoofd"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271757001",
-      "display" : "Papulaire uitbarsting"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "70076002",
-      "display" : "Rinitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "91175000",
-      "display" : "Epileptische aanval"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "76067001",
-      "display" : "Niezen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "73442001",
-      "display" : "Stevens-Johnson syndroom"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23924001",
-      "display" : "beklemmende borst"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "126485001",
-      "display" : "netelroos"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "31996006",
-      "display" : "Vasculitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1985008",
-      "display" : "braken"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "247472004",
-      "display" : "Huiduitslag"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "39579001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Anaphylaxis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Anaphylaxie"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "anafylaxie"
-        }]
-      },
-      {
-        "code" : "41291007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Angio-oedema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Angio-œdème"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "angio-oedeem"
-        }]
-      },
-      {
-        "code" : "195967001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Asthma"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Asthme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "astma"
-        }]
-      },
-      {
-        "code" : "24079001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Atopic dermatitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dermatite atopique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Atopische dermatitis"
-        }]
-      },
-      {
-        "code" : "4386001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bronchospasm"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Bronchospasme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Bronchospasme"
-        }]
-      },
-      {
-        "code" : "271759003",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bullous eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption bulleuse"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "XX"
-        }]
-      },
-      {
-        "code" : "698247007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiac arrhythmia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arythmie cardique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Hartritmestoornis"
-        }]
-      },
-      {
-        "code" : "410430005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiorespiratory arrest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arrêt cardiorespiratoire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Cardiorespiratoire stilstand"
-        }]
-      },
-      {
-        "code" : "9826008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Conjunctivitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Conjonctivite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "conjonctivitis"
-        }]
-      },
-      {
-        "code" : "49727002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cough"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Toux"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "hoest"
-        }]
-      },
-      {
-        "code" : "62315008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Diarrhoea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Diarrhée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "diarree"
-        }]
-      },
-      {
-        "code" : "702809001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Drug reaction with eosinophilia and systemic symptoms"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome d'hypersensibilité médicamenteuse"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
-        }]
-      },
-      {
-        "code" : "162290004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dry eyes"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Sécheresse oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "droge ogen"
-        }]
-      },
-      {
-        "code" : "267036007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dyspnea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dyspnée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "kortademigheid"
-        }]
-      },
-      {
-        "code" : "43116000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Eczema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eczéma"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Eczeem"
-        }]
-      },
-      {
-        "code" : "418363000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Itching of skin"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Prurit"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "jeuk"
-        }]
-      },
-      {
-        "code" : "422587007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Nausea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Nausée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Misselijkheid"
-        }]
-      },
-      {
-        "code" : "359610006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Ocular hyperaemia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Hyperémie oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oogbeschadigingen en/of hyperemia"
-        }]
-      },
-      {
-        "code" : "51599000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oedema of larynx"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Œdème laryngé"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oedeem van het strottenhoofd"
-        }]
-      },
-      {
-        "code" : "271757001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Papular eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption papulaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Papulaire uitbarsting"
-        }]
-      },
-      {
-        "code" : "70076002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Rhinitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Rhinite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Rinitis"
-        }]
-      },
-      {
-        "code" : "91175000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Seizure"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Crise épileptique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Epileptische aanval"
-        }]
-      },
-      {
-        "code" : "76067001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Sneezing"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eternuement"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Niezen"
-        }]
-      },
-      {
-        "code" : "73442001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Stevens-Johnson syndrome"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome de Stevens-Johnson"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Stevens-Johnson syndroom"
-        }]
-      },
-      {
-        "code" : "23924001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Tight chest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Oppression thoracique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "beklemmende borst"
-        }]
-      },
-      {
-        "code" : "126485001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Urticaria"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Urticaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "netelroos"
-        }]
-      },
-      {
-        "code" : "31996006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vasculitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vascularite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Vasculitis"
-        }]
-      },
-      {
-        "code" : "1985008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vomitus"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vomi"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "braken"
-        }]
-      },
-      {
-        "code" : "247472004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Weal"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Éruption cutanée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Huiduitslag"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:a69d3197-c73e-4522-a7a7-704712b9a32d",
-    "timestamp" : "2019-11-21T15:31:02.062Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "39579001",
-      "display" : "anafylaxie"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "41291007",
-      "display" : "angio-oedeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "195967001",
-      "display" : "astma"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "24079001",
-      "display" : "Atopische dermatitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "4386001",
-      "display" : "Bronchospasme"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271759003",
-      "display" : "XX"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "698247007",
-      "display" : "Hartritmestoornis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "410430005",
-      "display" : "Cardiorespiratoire stilstand"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "9826008",
-      "display" : "conjonctivitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "49727002",
-      "display" : "hoest"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "62315008",
-      "display" : "diarree"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "702809001",
-      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "162290004",
-      "display" : "droge ogen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "267036007",
-      "display" : "kortademigheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "43116000",
-      "display" : "Eczeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "418363000",
-      "display" : "jeuk"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "422587007",
-      "display" : "Misselijkheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "359610006",
-      "display" : "Oogbeschadigingen en/of hyperemia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "51599000",
-      "display" : "Oedeem van het strottenhoofd"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271757001",
-      "display" : "Papulaire uitbarsting"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "70076002",
-      "display" : "Rinitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "91175000",
-      "display" : "Epileptische aanval"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "76067001",
-      "display" : "Niezen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "73442001",
-      "display" : "Stevens-Johnson syndroom"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23924001",
-      "display" : "beklemmende borst"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "126485001",
-      "display" : "netelroos"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "31996006",
-      "display" : "Vasculitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1985008",
-      "display" : "braken"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "247472004",
-      "display" : "Huiduitslag"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "39579001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Anaphylaxis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Anaphylaxie"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "anafylaxie"
-        }]
-      },
-      {
-        "code" : "41291007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Angio-oedema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Angio-œdème"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "angio-oedeem"
-        }]
-      },
-      {
-        "code" : "195967001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Asthma"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Asthme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "astma"
-        }]
-      },
-      {
-        "code" : "24079001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Atopic dermatitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dermatite atopique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Atopische dermatitis"
-        }]
-      },
-      {
-        "code" : "4386001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bronchospasm"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Bronchospasme"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Bronchospasme"
-        }]
-      },
-      {
-        "code" : "271759003",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bullous eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption bulleuse"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "XX"
-        }]
-      },
-      {
-        "code" : "698247007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiac arrhythmia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arythmie cardique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Hartritmestoornis"
-        }]
-      },
-      {
-        "code" : "410430005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiorespiratory arrest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Arrêt cardiorespiratoire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Cardiorespiratoire stilstand"
-        }]
-      },
-      {
-        "code" : "9826008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Conjunctivitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Conjonctivite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "conjonctivitis"
-        }]
-      },
-      {
-        "code" : "49727002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cough"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Toux"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "hoest"
-        }]
-      },
-      {
-        "code" : "62315008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Diarrhoea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Diarrhée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "diarree"
-        }]
-      },
-      {
-        "code" : "702809001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Drug reaction with eosinophilia and systemic symptoms"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome d'hypersensibilité médicamenteuse"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
-        }]
-      },
-      {
-        "code" : "162290004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dry eyes"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Sécheresse oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "droge ogen"
-        }]
-      },
-      {
-        "code" : "267036007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dyspnea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Dyspnée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "kortademigheid"
-        }]
-      },
-      {
-        "code" : "43116000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Eczema"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eczéma"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Eczeem"
-        }]
-      },
-      {
-        "code" : "418363000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Itching of skin"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Prurit"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "jeuk"
-        }]
-      },
-      {
-        "code" : "422587007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Nausea"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Nausée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Misselijkheid"
-        }]
-      },
-      {
-        "code" : "359610006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Ocular hyperaemia"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Hyperémie oculaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oogbeschadigingen en/of hyperemia"
-        }]
-      },
-      {
-        "code" : "51599000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oedema of larynx"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Œdème laryngé"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Oedeem van het strottenhoofd"
-        }]
-      },
-      {
-        "code" : "271757001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Papular eruption"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eruption papulaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Papulaire uitbarsting"
-        }]
-      },
-      {
-        "code" : "70076002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Rhinitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Rhinite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Rinitis"
-        }]
-      },
-      {
-        "code" : "91175000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Seizure"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Crise épileptique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Epileptische aanval"
-        }]
-      },
-      {
-        "code" : "76067001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Sneezing"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Eternuement"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Niezen"
-        }]
-      },
-      {
-        "code" : "73442001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Stevens-Johnson syndrome"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Syndrome de Stevens-Johnson"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Stevens-Johnson syndroom"
-        }]
-      },
-      {
-        "code" : "23924001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Tight chest"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Oppression thoracique"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "beklemmende borst"
-        }]
-      },
-      {
-        "code" : "126485001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Urticaria"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Urticaire"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "netelroos"
-        }]
-      },
-      {
-        "code" : "31996006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vasculitis"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vascularite"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Vasculitis"
-        }]
-      },
-      {
-        "code" : "1985008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vomitus"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Vomi"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "braken"
-        }]
-      },
-      {
-        "code" : "247472004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Weal"
-        },
-        {
-          "language" : "BE-fr",
-          "value" : "Éruption cutanée"
-        },
-        {
-          "language" : "BE-nl",
-          "value" : "Huiduitslag"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:34cb17c9-5b55-43d3-8368-e49922fc5083",
-    "timestamp" : "2019-11-21T15:31:18.266Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "39579001",
-      "display" : "anafylaxie"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "41291007",
-      "display" : "angio-oedeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "195967001",
-      "display" : "astma"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "24079001",
-      "display" : "Atopische dermatitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "4386001",
-      "display" : "Bronchospasme"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271759003",
-      "display" : "XX"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "698247007",
-      "display" : "Hartritmestoornis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "410430005",
-      "display" : "Cardiorespiratoire stilstand"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "9826008",
-      "display" : "conjonctivitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "49727002",
-      "display" : "hoest"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "62315008",
-      "display" : "diarree"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "702809001",
-      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "162290004",
-      "display" : "droge ogen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "267036007",
-      "display" : "kortademigheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "43116000",
-      "display" : "Eczeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "418363000",
-      "display" : "jeuk"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "422587007",
-      "display" : "Misselijkheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "359610006",
-      "display" : "Oogbeschadigingen en/of hyperemia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "51599000",
-      "display" : "Oedeem van het strottenhoofd"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271757001",
-      "display" : "Papulaire uitbarsting"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "70076002",
-      "display" : "Rinitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "91175000",
-      "display" : "Epileptische aanval"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "76067001",
-      "display" : "Niezen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "73442001",
-      "display" : "Stevens-Johnson syndroom"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23924001",
-      "display" : "beklemmende borst"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "126485001",
-      "display" : "netelroos"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "31996006",
-      "display" : "Vasculitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1985008",
-      "display" : "braken"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "247472004",
-      "display" : "Huiduitslag"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "39579001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Anaphylaxis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Anaphylaxie"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "anafylaxie"
-        }]
-      },
-      {
-        "code" : "41291007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Angio-oedema"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Angio-œdème"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "angio-oedeem"
-        }]
-      },
-      {
-        "code" : "195967001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Asthma"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Asthme"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "astma"
-        }]
-      },
-      {
-        "code" : "24079001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Atopic dermatitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Dermatite atopique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Atopische dermatitis"
-        }]
-      },
-      {
-        "code" : "4386001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bronchospasm"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Bronchospasme"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Bronchospasme"
-        }]
-      },
-      {
-        "code" : "271759003",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bullous eruption"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eruption bulleuse"
-        },
-        {
-          "language" : "nl-BE",
           "value" : "XX"
         }]
       },
@@ -9770,619 +6725,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:752cc3bf-7945-488e-8843-17ad12d3906a",
-    "timestamp" : "2019-11-21T15:52:55.093Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "39579001",
-      "display" : "anafylaxie"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "41291007",
-      "display" : "angio-oedeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "195967001",
-      "display" : "astma"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "24079001",
-      "display" : "Atopische dermatitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "4386001",
-      "display" : "Bronchospasme"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271759003",
-      "display" : "XX"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "698247007",
-      "display" : "Hartritmestoornis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "410430005",
-      "display" : "Cardiorespiratoire stilstand"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "9826008",
-      "display" : "conjonctivitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "49727002",
-      "display" : "hoest"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "62315008",
-      "display" : "diarree"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "702809001",
-      "display" : "Drug eruption met eosinofilie \nen systemische symptomen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "162290004",
-      "display" : "droge ogen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "267036007",
-      "display" : "kortademigheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "43116000",
-      "display" : "Eczeem"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "418363000",
-      "display" : "jeuk"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "422587007",
-      "display" : "Misselijkheid"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "359610006",
-      "display" : "Oogbeschadigingen en/of hyperemia"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "51599000",
-      "display" : "Oedeem van het strottenhoofd"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "271757001",
-      "display" : "Papulaire uitbarsting"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "70076002",
-      "display" : "Rinitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "91175000",
-      "display" : "Epileptische aanval"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "76067001",
-      "display" : "Niezen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "73442001",
-      "display" : "Stevens-Johnson syndroom"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "23924001",
-      "display" : "beklemmende borst"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "126485001",
-      "display" : "netelroos"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "31996006",
-      "display" : "Vasculitis"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1985008",
-      "display" : "braken"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "247472004",
-      "display" : "Huiduitslag"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "39579001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Anaphylaxis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Anaphylaxie"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "anafylaxie"
-        }]
-      },
-      {
-        "code" : "41291007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Angio-oedema"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Angio-œdème"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "angio-oedeem"
-        }]
-      },
-      {
-        "code" : "195967001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Asthma"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Asthme"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "astma"
-        }]
-      },
-      {
-        "code" : "24079001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Atopic dermatitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Dermatite atopique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Atopische dermatitis"
-        }]
-      },
-      {
-        "code" : "4386001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bronchospasm"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Bronchospasme"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Bronchospasme"
-        }]
-      },
-      {
-        "code" : "271759003",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Bullous eruption"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eruption bulleuse"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "XX"
-        }]
-      },
-      {
-        "code" : "698247007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiac arrhythmia"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Arythmie cardique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Hartritmestoornis"
-        }]
-      },
-      {
-        "code" : "410430005",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cardiorespiratory arrest"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Arrêt cardiorespiratoire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Cardiorespiratoire stilstand"
-        }]
-      },
-      {
-        "code" : "9826008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Conjunctivitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Conjonctivite"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "conjonctivitis"
-        }]
-      },
-      {
-        "code" : "49727002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Cough"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Toux"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "hoest"
-        }]
-      },
-      {
-        "code" : "62315008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Diarrhoea"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Diarrhée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "diarree"
-        }]
-      },
-      {
-        "code" : "702809001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Drug reaction with eosinophilia and systemic symptoms"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Syndrome d'hypersensibilité médicamenteuse"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Drug eruption met eosinofilie \nen systemische symptomen"
-        }]
-      },
-      {
-        "code" : "162290004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dry eyes"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Sécheresse oculaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "droge ogen"
-        }]
-      },
-      {
-        "code" : "267036007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Dyspnea"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Dyspnée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "kortademigheid"
-        }]
-      },
-      {
-        "code" : "43116000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Eczema"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eczéma"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Eczeem"
-        }]
-      },
-      {
-        "code" : "418363000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Itching of skin"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Prurit"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "jeuk"
-        }]
-      },
-      {
-        "code" : "422587007",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Nausea"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Nausée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Misselijkheid"
-        }]
-      },
-      {
-        "code" : "359610006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Ocular hyperaemia"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Hyperémie oculaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Oogbeschadigingen en/of hyperemia"
-        }]
-      },
-      {
-        "code" : "51599000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Oedema of larynx"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Œdème laryngé"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Oedeem van het strottenhoofd"
-        }]
-      },
-      {
-        "code" : "271757001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Papular eruption"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eruption papulaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Papulaire uitbarsting"
-        }]
-      },
-      {
-        "code" : "70076002",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Rhinitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Rhinite"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Rinitis"
-        }]
-      },
-      {
-        "code" : "91175000",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Seizure"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Crise épileptique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Epileptische aanval"
-        }]
-      },
-      {
-        "code" : "76067001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Sneezing"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Eternuement"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Niezen"
-        }]
-      },
-      {
-        "code" : "73442001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Stevens-Johnson syndrome"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Syndrome de Stevens-Johnson"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Stevens-Johnson syndroom"
-        }]
-      },
-      {
-        "code" : "23924001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Tight chest"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Oppression thoracique"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "beklemmende borst"
-        }]
-      },
-      {
-        "code" : "126485001",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Urticaria"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Urticaire"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "netelroos"
-        }]
-      },
-      {
-        "code" : "31996006",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vasculitis"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Vascularite"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Vasculitis"
-        }]
-      },
-      {
-        "code" : "1985008",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Vomitus"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Vomi"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "braken"
-        }]
-      },
-      {
-        "code" : "247472004",
-        "designation" : [{
-          "language" : "en",
-          "value" : "Weal"
-        },
-        {
-          "language" : "fr-BE",
-          "value" : "Éruption cutanée"
-        },
-        {
-          "language" : "nl-BE",
-          "value" : "Huiduitslag"
-        }]
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:b9d6975f-f6d2-443d-b8e4-0432145481a9",
-    "timestamp" : "2019-11-21T15:53:11.577Z",
+    "identifier" : "urn:uuid:a0e250f9-7975-40ab-8c01-30e4b9a4d2fe",
+    "timestamp" : "2019-11-25T08:29:36.894Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
