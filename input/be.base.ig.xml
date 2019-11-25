@@ -185,6 +185,17 @@
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization"/>
       <groupingId value="examples"/>
     </resource>
+	
+			 <resource>
+      <reference>
+         <reference value="PractitionerRole/practitionerrole1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="PractitionerRole1"/>
+      <description value="PractitionerRole"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole"/>
+      <groupingId value="examples"/>
+    </resource>
     
 	    <resource>
       <reference>
