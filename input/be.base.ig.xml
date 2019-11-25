@@ -218,6 +218,29 @@
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
       <groupingId value="examples"/>
     </resource>
+	
+						 <resource>
+      <reference>
+         <reference value="AllergyIntolerance/allergyintolerance1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="AllergyIntolerance1"/>
+      <description value="Food allergy"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <groupingId value="examples"/>
+    </resource>
+	
+						 <resource>
+      <reference>
+         <reference value="AllergyIntolerance/allergyintolerance2"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="AllergyIntolerance2"/>
+      <description value="Pollen allergy with multiple reactions"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <groupingId value="examples"/>
+    </resource>
+	
 	    <resource>
       <reference>
         <reference value="StructureDefinition/be-practitionerrole"/>
