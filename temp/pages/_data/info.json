@@ -1,0 +1,8 @@
+{
+  "ballotstatus":"CI Build (HL7 BE)",
+  "copyrightyear":"2019+",
+  "excludexml":"${excludexml}",
+  "excludejson":"${excludejson}",
+  "excludettl":"Yes",
+  "excludemaps":"${excludemaps}"
+}

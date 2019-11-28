@@ -1,0 +1,37 @@
+{
+  "path": "http://hl7.org/fhir/R4/",
+  "canonical": "https://www.ehealth.fgov.be/standards/fhir",
+  "igId": "hl7.be.core",
+  "igName": "BaseIG",
+  "packageId": "hl7.be.core",
+  "errorCount": 29,
+  "version": "4.0.1",
+  "revision": "a53ec6ee1b",
+  "versionFull": "4.0.1-a53ec6ee1b",
+  "toolingVersion": "4.1.0",
+  "toolingRevision": "3",
+  "toolingVersionFull": "4.1.0 (3)",
+  "totalFiles": 34,
+  "processedFiles": 63,
+  "genDate": "Thu, Nov 28, 2019 09:29+0100",
+  "genDay": "28/11/2019",
+  "ig": {
+    "id": "hl7.be.core",
+    "name": "BaseIG",
+    "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "HL7 Belgium",
+    "contact": [
+      {
+        "telecom": [
+          "http://hl7.org/Special/committees/fiwg"
+        ]
+      }
+    ],
+    "date": "2019-11-28T09:29:30+01:00",
+    "description": "The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium",
+    "fhirVersion": "4.0.1"
+  }
+}

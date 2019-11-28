@@ -1,0 +1,123 @@
+﻿<html>
+<head>
+  <title>AllergyIntolerance-allergyintolerance2-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance">resourceType</a>" : "AllergyIntolerance",
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.id">id</a>" : "allergyintolerance2",
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "1",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a>" : "2019-07-01T13:30:55.864+00:00",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n      &lt;p&gt;\n        &lt;b&gt;Generated Narrative with Details&lt;/b&gt;\n      &lt;/p&gt;\n      &lt;p&gt;\n        &lt;b&gt;clinicalStatus&lt;/b&gt;: Active &lt;span&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})&lt;/span&gt;&lt;/p&gt;\n      &lt;p&gt;\n        &lt;b&gt;verificationStatus&lt;/b&gt;: Confirmed &lt;span&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})&lt;/span&gt;&lt;/p&gt;\n      &lt;p&gt;\n        &lt;b&gt;type&lt;/b&gt;: allergy&lt;/p&gt;\n      &lt;p&gt;\n        &lt;b&gt;category&lt;/b&gt;: environment&lt;/p&gt;\n      &lt;p&gt;\n        &lt;b&gt;criticality&lt;/b&gt;: high&lt;/p&gt;\n      &lt;p&gt;\n        &lt;b&gt;code&lt;/b&gt;: Pollen &lt;span&gt;(Details : {SNOMED CT code '256259004' = 'Pollen', given as 'Pollen'})&lt;/span&gt;&lt;/p&gt;\n        &lt;b&gt;Mild cough reaction to Douglas fir&lt;/b&gt;\n            &lt;b&gt;Severe cough reaction to Silver birch&lt;/b&gt;\n    &lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.clinicalStatus">clinicalStatus</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "active",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Active"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.verificationStatus">verificationStatus</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "confirmed"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.type">type</a>" : "allergy",
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.category">category</a>" : [
+    "environment"
+  ],
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.criticality">criticality</a>" : "high",
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.code">code</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "256259004",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Pollen"
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Allergic to pollen"
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.patient">patient</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/example"
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.onset[x]">onsetDateTime</a>" : "2004",
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.recordedDate">recordedDate</a>" : "2014-10-09T14:58:00+11:00",
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.recorder">recorder</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/example"
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.asserter">asserter</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/example"
+  },
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.lastOccurrence">lastOccurrence</a>" : "2012-06",
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.note">note</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">text</a>" : "Some extra information can be given here."
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction">reaction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.substance">substance</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "256262001",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Silver Birch pollen"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.manifestation">manifestation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "49727002",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Cough"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.onset">onset</a>" : "2012-06-12",
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.severity">severity</a>" : "severe"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.substance">substance</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "710732007",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Douglas fir pollen"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.manifestation">manifestation</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "49727002",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Cough"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.onset">onset</a>" : "2012-06-12",
+      "<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.severity">severity</a>" : "mild"
+    }
+  ]
+}</pre>
+</body>
+</html>

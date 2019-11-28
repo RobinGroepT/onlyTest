@@ -1,0 +1,90 @@
+﻿<html>
+<head>
+  <title>PractitionerRole-practitionerrole1-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole">resourceType</a>" : "PractitionerRole",
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.id">id</a>" : "practitionerrole1",
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "1",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a>" : "2019-07-01T13:30:55.864+00:00",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n      &lt;p&gt;\n\t\t\t\tDr Katherine Pulaski\n\t\t\t\t2012\n\t\t\t&lt;/p&gt;\n    &lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://www.acme.org/practitioners",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "23"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.active">active</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.period">period</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a>" : "2019-08-01T00:00:00.000Z",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a>" : "2019-12-01T00:00:00.000Z"
+  },
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.practitioner">practitioner</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "https://www.anotherfhirserver.be/fhir/Practitioner/01",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a>" : "Dr Katherine Pulaski"
+  },
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.code">code</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "persphysician",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "physician"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.specialty">specialty</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "419772000",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Family practice"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availableTime">availableTime</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availableTime.daysOfWeek">daysOfWeek</a>" : [
+        "mon",
+        "tue",
+        "wed"
+      ],
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availableTime.availableStartTime">availableStartTime</a>" : "09:00:00",
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availableTime.availableEndTime">availableEndTime</a>" : "16:30:00"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availableTime.daysOfWeek">daysOfWeek</a>" : [
+        "thu",
+        "fri"
+      ],
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availableTime.availableStartTime">availableStartTime</a>" : "09:00:00",
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availableTime.availableEndTime">availableEndTime</a>" : "12:00:00"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.notAvailable">notAvailable</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.notAvailable.description">description</a>" : "Katherine will be on extended leave during August 2020",
+      "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.notAvailable.during">during</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a>" : "2020-08-01T00:00:00.000Z",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a>" : "2020-08-20T00:00:00.000Z"
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.availabilityExceptions">availabilityExceptions</a>" : "Katherine is generally unavailable on public holidays and during the Christmas/New Year break"
+}</pre>
+</body>
+</html>

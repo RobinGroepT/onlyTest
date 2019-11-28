@@ -1,0 +1,130 @@
+﻿<html>
+<head>
+  <title>ValueSet-be-diarytopic-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:ValueSet;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;be-diarytopic&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;BEDiaryTopic&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Codes supported by eHealth Platform differentiating types of communication topics.&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;be-diarytopic.html\&quot;&gt;&lt;code&gt;https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-diarytopic&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;be-diarytopic.html#be-diarytopic-diabetes\&quot;&gt;diabetes&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;be-diarytopic.html#be-diarytopic-medication\&quot;&gt;medication&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;be-diarytopic.html#be-diarytopic-movement\&quot;&gt;movement&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;be-diarytopic.html#be-diarytopic-nutrition\&quot;&gt;nutrition&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;be-diarytopic.html#be-diarytopic-renalinsufficiency\&quot;&gt;renalinsufficiency&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;be-diarytopic.html#be-diarytopic-woundcare\&quot;&gt;woundcare&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Additional Language Displays&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;English (English, en)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (Belgium) (fr)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Nederlands (België) (Dutch (Belgium), nl)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;diabetes&lt;/td&gt;&lt;td&gt;diabetes&lt;/td&gt;&lt;td&gt;diabète&lt;/td&gt;&lt;td&gt;diabetes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;medication&lt;/td&gt;&lt;td&gt;medication&lt;/td&gt;&lt;td&gt;médication&lt;/td&gt;&lt;td&gt;medicatie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;movement&lt;/td&gt;&lt;td&gt;movement&lt;/td&gt;&lt;td&gt;mouvement&lt;/td&gt;&lt;td&gt;beweging&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nutrition&lt;/td&gt;&lt;td&gt;nutrition&lt;/td&gt;&lt;td&gt;nutrition&lt;/td&gt;&lt;td&gt;voeding&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;renalinsufficiency&lt;/td&gt;&lt;td&gt;renal insufficiency&lt;/td&gt;&lt;td&gt;insuffisance rénale&lt;/td&gt;&lt;td&gt;nierinsufficiëntie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;woundcare&lt;/td&gt;&lt;td&gt;wound care&lt;/td&gt;&lt;td&gt;soins de plaies&lt;/td&gt;&lt;td&gt;wondverzorging&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-diarytopic&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;1.0&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BEDiaryTopic&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;draft&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2019-11-18T11:36:17+01:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;HL7 Belgium&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:ValueSet.contact</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;other&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;http://hl7.org/Special/committees/fiwg&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Codes supported by eHealth Platform differentiating types of communication topics.&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:ValueSet.jurisdiction</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;001&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-diarytopic&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;diabetes&quot; ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;en&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;diabetes&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;nl-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;diabetes&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;diabète&quot; ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;medication&quot; ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;en&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;medication&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;nl-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;medicatie&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;médication&quot; ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;movement&quot; ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;en&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;movement&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;nl-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;beweging&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mouvement&quot; ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;nutrition&quot; ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;en&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;nutrition&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;nl-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;voeding&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;nutrition&quot; ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;renalinsufficiency&quot; ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;en&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;renal insufficiency&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;nl-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;nierinsufficiëntie&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;insuffisance rénale&quot; ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;woundcare&quot; ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;en&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;wound care&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;nl-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;wondverzorging&quot; ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-BE&quot; ];
+           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;soins de plaies&quot; ]         ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

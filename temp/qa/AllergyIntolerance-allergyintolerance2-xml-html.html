@@ -1,0 +1,118 @@
+﻿<html>
+<head>
+  <title>AllergyIntolerance-allergyintolerance2-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance">AllergyIntolerance</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;allergyintolerance2&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2019-07-01T13:30:55.864+00:00&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+      &lt;p&gt;
+        &lt;b&gt;Generated Narrative with Details&lt;/b&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;b&gt;clinicalStatus&lt;/b&gt;: Active &lt;span&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;
+        &lt;b&gt;verificationStatus&lt;/b&gt;: Confirmed &lt;span&gt;(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;
+        &lt;b&gt;type&lt;/b&gt;: allergy&lt;/p&gt;
+      &lt;p&gt;
+        &lt;b&gt;category&lt;/b&gt;: environment&lt;/p&gt;
+      &lt;p&gt;
+        &lt;b&gt;criticality&lt;/b&gt;: high&lt;/p&gt;
+      &lt;p&gt;
+        &lt;b&gt;code&lt;/b&gt;: Pollen &lt;span&gt;(Details : {SNOMED CT code '256259004' = 'Pollen', given as 'Pollen'})&lt;/span&gt;&lt;/p&gt;
+        &lt;b&gt;Mild cough reaction to Douglas fir&lt;/b&gt;
+            &lt;b&gt;Severe cough reaction to Silver birch&lt;/b&gt;
+    &lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.clinicalStatus">clinicalStatus</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Active&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/clinicalStatus&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.verificationStatus">verificationStatus</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/allergyintolerance-verification&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;confirmed&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/verificationStatus&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;allergy&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.category">category</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;environment&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.criticality">criticality</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;high&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;256259004&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Pollen&quot;/&gt;
+    &lt;/coding&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Allergic to pollen&quot;/&gt;
+  &lt;/code&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.patient">patient</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/example&quot;/&gt;
+  &lt;/patient&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.onset[x]">onsetDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2004&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.recordedDate">recordedDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2014-10-09T14:58:00+11:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.recorder">recorder</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/example&quot;/&gt;
+  &lt;/recorder&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.asserter">asserter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/example&quot;/&gt;
+  &lt;/asserter&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.lastOccurrence">lastOccurrence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2012-06&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.note">note</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Some extra information can be given here.&quot;/&gt;
+  &lt;/note&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction">reaction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.substance">substance</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;256262001&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Silver Birch pollen&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/substance&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.manifestation">manifestation</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;49727002&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cough&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/manifestation&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.onset">onset</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2012-06-12&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.severity">severity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;severe&quot;/&gt;
+  &lt;/reaction&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction">reaction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.substance">substance</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;710732007&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Douglas fir pollen&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/substance&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.manifestation">manifestation</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;49727002&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cough&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/manifestation&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.onset">onset</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2012-06-12&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.reaction.severity">severity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;mild&quot;/&gt;
+  &lt;/reaction&gt;
+&lt;/AllergyIntolerance&gt;</pre>
+</body>
+</html>

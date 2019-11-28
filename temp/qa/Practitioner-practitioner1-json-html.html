@@ -1,0 +1,93 @@
+﻿<html>
+<head>
+  <title>Practitioner-practitioner1-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">resourceType</a>" : "Practitioner",
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">id</a>" : "practitioner1",
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "1",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a>" : "2019-07-01T13:30:55.864+00:00",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n      &lt;div class=\&quot;hapiHeaderText\&quot;&gt;Katherine&lt;b&gt;Pulaski&lt;/b&gt;&lt;/div&gt;\n      &lt;table class=\&quot;hapiPropertyTable\&quot;&gt;\n        &lt;tbody&gt;\n          &lt;tr&gt;\n            &lt;td&gt;Identifier&lt;/td&gt;\n            &lt;td&gt;79121137740&lt;/td&gt;\n          &lt;/tr&gt;\n          &lt;tr&gt;\n            &lt;td&gt;Address&lt;/td&gt;\n            &lt;td&gt;\n              &lt;span&gt;Grimbergen&lt;/span&gt;\n              &lt;span&gt;BE &lt;/span&gt;\n            &lt;/td&gt;\n          &lt;/tr&gt;\n          &lt;tr&gt;\n            &lt;td&gt;Date of birth&lt;/td&gt;\n            &lt;td&gt;\n              &lt;span&gt;11 December 1979&lt;/span&gt;\n            &lt;/td&gt;\n          &lt;/tr&gt;\n        &lt;/tbody&gt;\n      &lt;/table&gt;\n    &lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "79121137740"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "18749704477"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a>" : "official",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "Pulaski",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Katherine"
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.suffix">suffix</a>" : [
+        "MD"
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.telecom">telecom</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "022675198",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "katherine.pulaski@enterprisehospital.be",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "fax",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "022675209",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.address">address</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a>" : "home",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a>" : "Jupiterlaan 5, 1853 Grimbergen",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a>" : [
+        "Jupiterlaan 5"
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">_line</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Jupiterlaan"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "5"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a>" : "Grimbergen",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a>" : "1853",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a>" : "BE"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.gender">gender</a>" : "female",
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.birthDate">birthDate</a>" : "1979-12-11"
+}</pre>
+</body>
+</html>

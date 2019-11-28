@@ -1,0 +1,21 @@
+I"¢
+<div class="markdown-toc">
+
+</div>
+<p>Logical Models Overview</p>
+
+<p>The Logical Models provide a functional foundation for these specifications.</p>
+
+<p>The following Logical Data Models are defined in this specification:</p>
+
+<ul>
+  <li>Patient</li>
+  <li>Practitioner</li>
+  <li>PractitionerRole</li>
+  <li>Communication</li>
+  <li>AllergyIntolerance</li>
+  <li>KMEHR Document</li>
+  <li>Immunization</li>
+</ul>
+
+:ET
