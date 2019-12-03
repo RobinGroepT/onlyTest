@@ -13,7 +13,7 @@
   "toolingVersionFull": "4.1.0 (3)",
   "totalFiles": 34,
   "processedFiles": 63,
-  "genDate": "Tue, Dec 3, 2019 14:44+0100",
+  "genDate": "Tue, Dec 3, 2019 15:57+0100",
   "genDay": "03/12/2019",
   "ig": {
     "id": "hl7.be.core",
@@ -30,7 +30,7 @@
         ]
       }
     ],
-    "date": "2019-12-03T14:44:50+01:00",
+    "date": "2019-12-03T15:57:16+01:00",
     "description": "The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium",
     "fhirVersion": "4.0.1"
   }
