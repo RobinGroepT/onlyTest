@@ -416,7 +416,9 @@
         <nameUrl value="conventions.html"/>
         <title value="Conventions"/>
         <generation value="markdown"/>
-      </page>      <page>
+      </page>     
+<!--
+	  <page>
         <nameUrl value="functional-overview.html"/>
         <title value="Functional Description"/>
         <generation value="markdown"/>
@@ -426,7 +428,10 @@
         <title value="Logical Data Models"/>
         <generation value="markdown"/>
       </page>
+	  
+	  -->
       <page>
+	  
         <nameUrl value="artifacts.html"/>
         <title value="Artifacts"/>
         <generation value="html"/>

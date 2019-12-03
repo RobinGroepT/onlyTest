@@ -1,5 +1,5 @@
 {
-  "ballotstatus":"CI Build (HL7 BE)",
+  "ballotstatus":"Published",
   "copyrightyear":"2019+",
   "excludexml":"${excludexml}",
   "excludejson":"${excludejson}",

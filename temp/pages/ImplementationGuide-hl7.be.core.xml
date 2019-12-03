@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.be.core"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BaseIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core</pre><div><p>The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Core IG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core</pre><div><p>The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium</p>
 </div></div>
   </text>
   <url value="https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core"/>
-  <name value="BaseIG"/>
-  <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
-  <status value="draft"/>
+  <name value="Core IG"/>
+  <title value="The Core Belgian Federal Profiles"/>
+  <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-11-28T09:29:30+01:00"/>
-  <publisher value="HL7 Belgium"/>
+  <date value="2019-12-03T14:44:50+01:00"/>
+  <publisher value="eHealth Platform"/>
   <contact>
     <telecom>
       <system value="other"/>
@@ -587,16 +587,6 @@
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="functional-overview.html"/>
-        <title value="Functional Description"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="logical-models.html"/>
-        <title value="Logical Data Models"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
         <nameUrl value="artifacts.html"/>
         <title value="Artifacts"/>
         <generation value="html"/>
@@ -619,6 +609,11 @@
       <page>
         <nameUrl value="changes.html"/>
         <title value="IG Change History"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="guidance.html"/>
+        <title value="Guidance"/>
         <generation value="html"/>
       </page>
     </page>

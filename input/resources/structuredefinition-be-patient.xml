@@ -1995,7 +1995,7 @@
 		<element id="Patient.telecom">
 			<path value="Patient.telecom"/>
 			<short value="A contact detail for the individual"/>
-			<definition value="A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.&#xA;&#xA;It is RECOMMENDED to at least add one phone or email address."/>
+			<definition value="A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.&#xA;&#xA;It is RECOMMENDED to at least add one phone or email address with clear indication using the .use element whether it is home use, private use,..."/>
 			<comment value="A Patient may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner's phone)."/>
 			<requirements value="People have (primary) ways to contact them in some way such as phone, email."/>
 			<min value="0"/>
@@ -4650,7 +4650,7 @@ Note in the FHIR base definition of this element that the scope of this element 
 		</element>
 		<element id="Patient.telecom">
 			<path value="Patient.telecom"/>
-			<definition value="A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.&#xA;&#xA;It is RECOMMENDED to at least add one phone or email address."/>
+				<definition value="A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.&#xA;&#xA;It is RECOMMENDED to at least add one phone or email address with clear indication using the .use element whether it is home use, private use,..."/>
 		</element>
 		<element id="Patient.gender">
 			<path value="Patient.gender"/>
