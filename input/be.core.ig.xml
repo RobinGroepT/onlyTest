@@ -455,6 +455,7 @@
         <title value="Artifacts"/>
         <generation value="html"/>
       </page>
+	  <!--
       <page>
         <nameUrl value="example-resources.html"/>
         <title value="Example Resources"/>
@@ -465,6 +466,7 @@
         <title value="Example Scenarios"/>
         <generation value="markdown"/>
       </page>
+	  -->
       <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
