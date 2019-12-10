@@ -4,6 +4,7 @@
   "igId": "hl7.be.core",
   "igName": "Core IG",
   "packageId": "hl7.be.core",
+  "igVer": "1.0.0",
   "errorCount": 29,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
@@ -11,15 +12,16 @@
   "toolingVersion": "4.1.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.1.0 (3)",
-  "totalFiles": 34,
-  "processedFiles": 63,
-  "genDate": "Tue, Dec 3, 2019 15:57+0100",
-  "genDay": "03/12/2019",
+  "totalFiles": 36,
+  "processedFiles": 65,
+  "genDate": "Tue, Dec 10, 2019 14:09+0100",
+  "genDay": "10/12/2019",
   "ig": {
     "id": "hl7.be.core",
     "name": "Core IG",
-    "title": "The Core Belgian Federal Profiles",
+    "title": "The Core Belgian Federal FHIR Profiles",
     "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core",
+    "version": "1.0.0",
     "status": "active",
     "experimental": false,
     "publisher": "eHealth Platform",
@@ -30,7 +32,7 @@
         ]
       }
     ],
-    "date": "2019-12-03T15:57:16+01:00",
+    "date": "2019-12-10T14:09:41+01:00",
     "description": "The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium",
     "fhirVersion": "4.0.1"
   }

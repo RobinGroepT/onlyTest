@@ -759,7 +759,7 @@
       <binding>
         <strength value="extensible" />
         <description value="Causative agent codes as defined by NIHDI" />
-        <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent" />
+        <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-allergyintolerancecode" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -1869,7 +1869,7 @@
       <binding>
         <strength value="extensible" />
         <description value="Causative agent codes as defined by NIHDI" />
-        <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent" />
+      <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-allergyintolerancecode" />
       </binding>
     </element>
     <element id="AllergyIntolerance.patient">

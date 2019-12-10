@@ -1385,7 +1385,7 @@
 				<rules value="open"/>
 			</slicing>
 			<short value="An identifier for this patient"/>
-			<definition value="An identifier for this patient.&#xD;&#xA;&#xD;&#xA;Typically, when SSIN is available it is used. Organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. "/>
+		<definition value="An identifier for this patient.&#xD;&#xA;&#xD;&#xA;Typically, when SSIN is available it is used. Organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When an identifier is given, a consumer SHALL NOT ignore it."/>
 			<requirements value="Patients are almost always assigned specific numerical identifiers."/>
 			<min value="0"/>
 			<max value="*"/>
@@ -1406,6 +1406,7 @@
 				<xpath value="@value|f:*|h:div"/>
 				<source value="Element"/>
 			</constraint>
+			<mustSupport value="true" />
 			<isSummary value="true"/>
 			<mapping>
 				<identity value="rim"/>
@@ -1439,6 +1440,7 @@
 				<identity value="cda"/>
 				<map value=".id"/>
 			</mapping>
+			
 		</element>
 		<element id="Patient.identifier:SSIN">
 			<path value="Patient.identifier"/>
@@ -1892,7 +1894,7 @@
 		<element id="Patient.active">
 			<path value="Patient.active"/>
 			<short value="Whether this patient's record is in active use"/>
-			<definition value="Whether this patient record is in active use. &#xA;Many systems use this property to mark as non-current patients, such as those that have not been seen for a period of time based on an organization's business rules.&#xA;&#xA;It is often used to filter patient lists to exclude inactive patients&#xA;&#xA;Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.&#xA;&#xA;It is RECOMMENDED to keep the value ‘true’ as long as the patient is still being treated by the provider of the data."/>
+			<definition value="Whether this patient record is in active use. &#xA;Many systems use this property to mark as non-current patients, such as those that have not been seen for a period of time based on an organization's business rules.&#xA;&#xA;It is often used to filter patient lists to exclude inactive patients&#xA;&#xA;Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death."/>
 			<comment value="If a record is inactive, and linked to an active record, then future patient/record updates should occur on the other patient."/>
 			<requirements value="Need to be able to mark a patient record as not to be used because it was created in error."/>
 			<min value="0"/>
@@ -1938,7 +1940,7 @@
 		<element id="Patient.name">
 			<path value="Patient.name"/>
 			<short value="A name associated with the patient"/>
-			<definition value="A name associated with the individual. &#xA;&#xA;It is RECOMMENDED to give at least one familyname and at least one given name when possible and define an 'official' use. When names are given, the consumer SHALL record this in its consuming system. "/>
+			<definition value="A name associated with the individual. &#xA;&#xA;It is RECOMMENDED to give at least one familyname and at least one given name when possible and define an 'official' use. When names are given, a consumer SHALL NOT ignore it."/>
 			<comment value="A patient may have multiple names with different uses or applicable periods. For animals, the name is a &quot;HumanName&quot; in the sense that is assigned and used by humans and has the same patterns."/>
 			<requirements value="Need to be able to track the patient by multiple names. Examples are your official name and a partner name."/>
 			<min value="0"/>
@@ -2533,7 +2535,7 @@
 		<element id="Patient.address">
 			<path value="Patient.address"/>
 			<short value="An address for the individual"/>
-			<definition value="An address for the individual. &#xA;&#xA;It is RECOMMENDED to include an address when available."/>
+			<definition value="An address for the individual. &#xA;&#xA;It is RECOMMENDED to include an address when available. When needed to express the availablity of a Patient at home (e.g. only Wednesdays), another solution will be defined."/>
 			<comment value="Patient may have multiple addresses with different uses or applicable periods."/>
 			<requirements value="May need to keep track of patient addresses for contacting, billing or reporting requirements and also to help with identification."/>
 			<min value="0"/>
@@ -3239,7 +3241,7 @@ In HL7 semantics however this concept is described as ‘marital status’ and i
 		<element id="Patient.multipleBirth[x]">
 			<path value="Patient.multipleBirth[x]"/>
 			<short value="Whether patient is part of a multiple birth"/>
-			<definition value="Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer)."/>
+			<definition value="Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). Care SHOULD be given when exchanging Patient instances in a purely administrative flow."/>
 			<comment value="Where the valueInteger is provided, the number is the birth number in the sequence. E.g. The middle birth in triplets would be valueInteger=2 and the third born would have valueInteger=3 If a boolean value was provided for this triplets example, then all 3 patient records would have valueBoolean=true (the ordering is not indicated)."/>
 			<requirements value="For disambiguation of multiple-birth children, especially relevant where the care provider doesn't meet the patient, such as labs."/>
 			<min value="0"/>
@@ -4622,7 +4624,8 @@ Note in the FHIR base definition of this element that the scope of this element 
 				</discriminator>
 				<rules value="open"/>
 			</slicing>
-			<definition value="An identifier for this patient.&#xD;&#xA;&#xD;&#xA;Typically, when SSIN is available it is used. Organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. "/>
+			<definition value="An identifier for this patient.&#xD;&#xA;&#xD;&#xA;Typically, when SSIN is available it is used. Organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When an identifier is given, a consumer SHALL NOT ignore it."/>
+			<mustSupport value="true" />
 		</element>
 		<element id="Patient.identifier:SSIN">
 			<path value="Patient.identifier"/>
@@ -4638,13 +4641,10 @@ Note in the FHIR base definition of this element that the scope of this element 
 			<min value="1"/>
 			<max value="1"/>
 		</element>
-		<element id="Patient.active">
-			<path value="Patient.active"/>
-			<definition value="Whether this patient record is in active use. &#xA;Many systems use this property to mark as non-current patients, such as those that have not been seen for a period of time based on an organization's business rules.&#xA;&#xA;It is often used to filter patient lists to exclude inactive patients&#xA;&#xA;Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.&#xA;&#xA;It is RECOMMENDED to keep the value ‘true’ as long as the patient is still being treated by the provider of the data."/>
-		</element>
+	
 		<element id="Patient.name">
 			<path value="Patient.name"/>
-						<definition value="A name associated with the individual. &#xA;&#xA;It is RECOMMENDED to give at least one familyname and at least one given name when possible and define an 'official' use. When names are given, the consumer SHALL record this in its consuming system. "/>
+						<definition value="A name associated with the individual. &#xA;&#xA;It is RECOMMENDED to give at least one familyname and at least one given name when possible and define an 'official' use. When names are given, a consumer SHALL NOT ignore it."/>
 		
 				 <mustSupport value="true" />
 		</element>
@@ -4691,7 +4691,7 @@ Note in the FHIR base definition of this element that the scope of this element 
 		</element>
 		<element id="Patient.address">
 			<path value="Patient.address"/>
-			<definition value="An address for the individual. &#xA;&#xA;It is RECOMMENDED to include an address when available."/>
+		<definition value="An address for the individual. &#xA;&#xA;It is RECOMMENDED to include an address when available. When needed to express the availablity of a Patient at home (e.g. only Wednesdays), another solution will be defined."/>
 			<type>
 				<code value="Address"/>
 				<profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address" />
@@ -4707,6 +4707,12 @@ In HL7 semantics however this concept is described as ‘marital status’ and i
 				<valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-civilstate"/>
 			</binding>
 		</element>
+		<element id="Patient.multipleBirth[x]">
+			<path value="Patient.multipleBirth[x]"/>
+			<definition value="Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). Care SHOULD be given when exchanging Patient instances in a purely administrative flow."/>
+			</element>
+		
+		
 		<element id="Patient.contact">
 			<path value="Patient.contact"/>
 			<definition value="A contact party (e.g. guardian, partner, friend) for the patient.&#xA;&#xA;It is RECOMMENDED to include this when available and considered relevant for the patientcare. (e.g. a parent of a young patient)"/>

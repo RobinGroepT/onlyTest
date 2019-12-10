@@ -407,7 +407,7 @@
         <rules value="open" />
       </slicing>
       <short value="Identifies this organization  across multiple systems" />
-      <definition value="Identifier for the organization that is used to identify the organization across multiple disparate systems. &#xD;&#xA;Typically, a NIHDI value and/or a CBE or EHP value are given. Other systems are allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed." />
+      <definition value="Identifier for the organization that is used to identify the organization across multiple disparate systems. &#xD;&#xA;Typically, a NIHDI value and/or a CBE or EHP value are given. Other systems are allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When it is given, a consumer SHALL NOT ignore it." />
       <requirements value="Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization." />
       <min value="0" />
       <max value="*" />
@@ -429,6 +429,7 @@
         <xpath value="@value|f:*|h:div" />
         <source value="Element" />
       </constraint>
+	  		<mustSupport value="true" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -4260,7 +4261,8 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <definition value="Identifier for the organization that is used to identify the organization across multiple disparate systems. &#xD;&#xA;Typically, a NIHDI value and/or a CBE or EHP value are given. Other systems are allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed." />
+        <definition value="Identifier for the organization that is used to identify the organization across multiple disparate systems. &#xD;&#xA;Typically, a NIHDI value and/or a CBE or EHP value are given. Other systems are allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When it is given, a consumer SHALL NOT ignore it." />
+		<mustSupport value="true"/>
     </element>
     <element id="Organization.identifier:NIHDI">
       <path value="Organization.identifier" />

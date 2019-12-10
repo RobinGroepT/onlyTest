@@ -9691,6 +9691,10 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-447694001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447694001\">447694001</a></td><td>Respiratory tract route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6064005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6064005\">6064005</a></td><td>Topical route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26643006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26643006\">26643006</a></td><td>Oral route</td><td/></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:bf257462-131e-4de5-823d-efe9dbb93025",
     "timestamp" : "2019-12-03T13:32:22.540Z",
@@ -13094,5 +13098,579 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct"
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:dd02586a-6b31-4009-a1e0-2e7c347afba7",
+    "timestamp" : "2019-12-03T16:02:58.865Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000003001",
+  "display" : "Fully specified name"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Fully specified name",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000003001",
+  "display" : "Fully specified name"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "900000000000003001"
+      },
+      {
+        "code" : "900000000000013009"
+      }]
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "Fully specified name",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "716186003",
+        "display" : "No known allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie connue"
+        }]
+      },
+      {
+        "code" : "716220001",
+        "display" : "No known animal allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known animal allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known animal allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor dieren"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie aux animaux connue"
+        }]
+      },
+      {
+        "code" : "409137002",
+        "display" : "No known drug allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known drug allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known drug allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende drugs- en/of geneesmiddelenallergie"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie aux drogues et/ou médicaments connue"
+        }]
+      },
+      {
+        "code" : "428607008",
+        "display" : "No known environmental allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known environmental allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known environmental allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende omgevingsgerelateerde allergie"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie environnementale connue"
+        }]
+      },
+      {
+        "code" : "429625007",
+        "display" : "No known food allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known food allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known food allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor voedsel"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie alimentaire connue"
+        }]
+      },
+      {
+        "code" : "428197003",
+        "display" : "No known insect allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known insect allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known insect allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor insecten"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie aux insectes connue"
+        }]
+      },
+      {
+        "code" : "716184000",
+        "display" : "No known latex allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known latex allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known latex allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor latex"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie au latex connue"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:33d0b107-03dd-41c8-b30c-ba17c0a8a68a",
+    "timestamp" : "2019-12-05T15:20:26.319Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "716186003",
+      "display" : "pas d'allergie connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "716220001",
+      "display" : "pas d'allergie aux animaux connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "409137002",
+      "display" : "pas d'allergie aux drogues et/ou médicaments connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428607008",
+      "display" : "pas d'allergie environnementale connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429625007",
+      "display" : "pas d'allergie alimentaire connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428197003",
+      "display" : "pas d'allergie aux insectes connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "716184000",
+      "display" : "pas d'allergie au latex connue"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "716186003",
+        "display" : "No known allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie connue"
+        }]
+      },
+      {
+        "code" : "716220001",
+        "display" : "No known animal allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known animal allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known animal allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor dieren"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie aux animaux connue"
+        }]
+      },
+      {
+        "code" : "409137002",
+        "display" : "No known drug allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known drug allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known drug allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende drugs- en/of geneesmiddelenallergie"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie aux drogues et/ou médicaments connue"
+        }]
+      },
+      {
+        "code" : "428607008",
+        "display" : "No known environmental allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known environmental allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known environmental allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende omgevingsgerelateerde allergie"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie environnementale connue"
+        }]
+      },
+      {
+        "code" : "429625007",
+        "display" : "No known food allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known food allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known food allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor voedsel"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie alimentaire connue"
+        }]
+      },
+      {
+        "code" : "428197003",
+        "display" : "No known insect allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known insect allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known insect allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor insecten"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie aux insectes connue"
+        }]
+      },
+      {
+        "code" : "716184000",
+        "display" : "No known latex allergy (situation)",
+        "designation" : [{
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001",
+            "display" : "Fully specified name"
+          },
+          "value" : "No known latex allergy (situation)"
+        },
+        {
+          "language" : "en",
+          "value" : "No known latex allergy"
+        },
+        {
+          "language" : "nl-BE",
+          "value" : "geen gekende allergie voor latex"
+        },
+        {
+          "language" : "fr-BE",
+          "value" : "pas d'allergie au latex connue"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:8133fc72-0579-4206-9655-b34161e98e57",
+    "timestamp" : "2019-12-05T15:20:45.647Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "716186003",
+      "display" : "pas d'allergie connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "716220001",
+      "display" : "pas d'allergie aux animaux connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "409137002",
+      "display" : "pas d'allergie aux drogues et/ou médicaments connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428607008",
+      "display" : "pas d'allergie environnementale connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429625007",
+      "display" : "pas d'allergie alimentaire connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428197003",
+      "display" : "pas d'allergie aux insectes connue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "716184000",
+      "display" : "pas d'allergie au latex connue"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "256349002",
+    "display" : "Peanut"
+  }],
+  "text" : "Allergic to peanut"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"]
+    },
+    {
+      "valueSet" : ["https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy"]
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find value set https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "256259004",
+    "display" : "Pollen"
+  }],
+  "text" : "Allergic to pollen"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"]
+    },
+    {
+      "valueSet" : ["https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy"]
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find value set https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"
 }
 -------------------------------------------------------------------------------------
