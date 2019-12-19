@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="be.core.ig"/>
-  <url value="https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/be.core.ig"/>
+  <id value="BeCoreImplementationGuide"/>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/be-core"/>
   <version value="1.0.0"/>
   <name value="Core IG"/>
   <title value="The Core Belgian Federal FHIR Profiles"/>

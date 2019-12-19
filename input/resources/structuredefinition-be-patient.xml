@@ -2,9 +2,9 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/EH074/Desktop/LATEST%20AND%20GREATEST/FHIR4/structuredefinition.xsd">
 	<id value="be-patient"/>
 	<url value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"/>
-	<version value="0.1.0"/>
+	<version value="1.0.0"/>
 	<name value="BePatient"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<description value="Belgian federal profile for a patient. Initially based on the functional description of the NIHDI. Special remarks for KMEHR users: following elements in KMEHR are not available in this FHIR resource. If needed, an extension can be defined in a future iteration of these specifications: the 'deathlocation' (location is not available but the death of the patient is expressed by either date or Boolean cfr. infra.), the 'insurancystatus' (covered in a seperate FHIR resource: Coverage), 'insurancymembership' (covered in a seperate FHIR resource: Coverage) and 'profession' (covered in a possible future FHIR resource: OccupationalData.)"/>
 	<fhirVersion value="4.0.0"/>
 	<kind value="resource"/>

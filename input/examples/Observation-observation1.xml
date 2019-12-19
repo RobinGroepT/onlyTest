@@ -1,9 +1,9 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="observation1" />
   <meta>
-    <profile value="http://hl7.org/fhir/StructureDefinition/heartrate" />
+    
     <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns" />
-    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation" />
+   
   </meta>
   <text>
     <status value="generated" />

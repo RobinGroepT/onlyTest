@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "cd-civilstate"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CivilState</h2><div><p>Civil state in Belgium.</p>\n</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"cd-civilstate-10\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"cd-civilstate-20\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"cd-civilstate-25\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"cd-civilstate-26\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"cd-civilstate-30\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"cd-civilstate-40\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"cd-civilstate-41\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"cd-civilstate-50\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"cd-civilstate-51\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"cd-civilstate-60\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"cd-civilstate-80\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"cd-civilstate-81\"> </a></td><td/></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CivilState</h2><div><p>Civil state in Belgium.</p>\n</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"cd-civilstate-10\"> </a></td><td>Unmarried</td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"cd-civilstate-20\"> </a></td><td>Married</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"cd-civilstate-25\"> </a></td><td>Annuled</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"cd-civilstate-26\"> </a></td><td>Putative marriage</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"cd-civilstate-30\"> </a></td><td>Widowed</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"cd-civilstate-40\"> </a></td><td>Divorced</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"cd-civilstate-41\"> </a></td><td>Divorced since 1/10/1994</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"cd-civilstate-50\"> </a></td><td>Legal separation</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"cd-civilstate-51\"> </a></td><td>Legal separation since 1/10/1994</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"cd-civilstate-60\"> </a></td><td>Repudiation</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"cd-civilstate-80\"> </a></td><td>Partnership</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"cd-civilstate-81\"> </a></td><td>End of partnership</td><td/></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"];
   fhir:CodeSystem.version [ fhir:value "1.0.0"];
@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "CivilState"];
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2019-12-10T16:59:55+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2019-12-19T09:13:57+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "eHealth Platform"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -42,6 +42,7 @@
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "10" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Unmarried" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -58,6 +59,7 @@
   ], [
      fhir:index 1;
      fhir:CodeSystem.concept.code [ fhir:value "20" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Married" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -74,6 +76,7 @@
   ], [
      fhir:index 2;
      fhir:CodeSystem.concept.code [ fhir:value "25" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Annuled" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -90,6 +93,7 @@
   ], [
      fhir:index 3;
      fhir:CodeSystem.concept.code [ fhir:value "26" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Putative marriage" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -106,6 +110,7 @@
   ], [
      fhir:index 4;
      fhir:CodeSystem.concept.code [ fhir:value "30" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Widowed" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -122,6 +127,7 @@
   ], [
      fhir:index 5;
      fhir:CodeSystem.concept.code [ fhir:value "40" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Divorced" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -138,6 +144,7 @@
   ], [
      fhir:index 6;
      fhir:CodeSystem.concept.code [ fhir:value "41" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Divorced since 1/10/1994" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -154,6 +161,7 @@
   ], [
      fhir:index 7;
      fhir:CodeSystem.concept.code [ fhir:value "50" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Legal separation" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -170,6 +178,7 @@
   ], [
      fhir:index 8;
      fhir:CodeSystem.concept.code [ fhir:value "51" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Legal separation since 1/10/1994" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -186,6 +195,7 @@
   ], [
      fhir:index 9;
      fhir:CodeSystem.concept.code [ fhir:value "60" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Repudiation" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -202,6 +212,7 @@
   ], [
      fhir:index 10;
      fhir:CodeSystem.concept.code [ fhir:value "80" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Partnership" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
@@ -218,6 +229,7 @@
   ], [
      fhir:index 11;
      fhir:CodeSystem.concept.code [ fhir:value "81" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End of partnership" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];

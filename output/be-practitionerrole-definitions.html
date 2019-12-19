@@ -40,7 +40,7 @@
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <div id="hl7-nav">
-          <a id="standards-logo" no-external="true" href="">
+          <a id="standards-logo" no-external="true" href="index.html">
             <img height="50" alt="Welcome on standards website" src="assets/images/standards.svg"/>
           </a>
         </div>
@@ -113,7 +113,7 @@
 
 
 <div style="counter-reset: section 4" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">The Core Belgian Federal FHIR Profiles - Local Development build (v1.0.0). See the <a href="https://www.ehealth.fgov.be/standards/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">The Core Belgian Federal FHIR Profiles (v1.0.0). See the <a href="changes.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <ul class="nav nav-tabs">
     <li>
       <a href="be-practitionerrole.html">Content</a>
@@ -368,7 +368,7 @@ Towards the future, the use of SNOMED-CT codes is also RECOMMENDED here. In the 
 </td></tr>
   <tr><td>Comments</td><td><p>The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.</p>
 </td></tr>
-  <tr><td>Fixed Value</td><td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-HCPARTY</td></tr>
+  <tr><td>Fixed Value</td><td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty</td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="PractitionerRole.code:CD-HCPARTY.coding.version"> </a><span style="color: grey">23.</span> <b>PractitionerRole.code:CD-HCPARTY.coding.version</b><a href="#PractitionerRole.code:CD-HCPARTY.coding.version" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
@@ -902,21 +902,21 @@ As the base preferred valueset is already coded in SNOMED-CT which is the refere
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.ehealth.fgov.be"/>eHealth Platform</a>.  Package hl7.be.core#1.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 10, 2019 16:59+0100">2019-12-10</span>
+		<a id="belgium-logo" href="https://www.belgium.be/en" target="_blank">
+				<img  alt="belgium.be" src="assets/images/logo-be.png"/>
+			</a>
+			<a id="ehealth-logo" href="https://www.ehealth.fgov.be" style="text-decoration:none">
+				<img height="50" alt="Welcome on ehealth website" src="assets/images/logo-ehealth.png"/>
+			</a>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.ehealth.fgov.be">eHealth Platform</a>.  Package hl7.be.core#1.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 19, 2019 09:13+0100">2019-12-19</span>
           <br/>
-          <span>
+		  <span>
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
           </span>
-        </p>
-		<p>
-			<a id="ehealth-logo" href="https://www.ehealth.fgov.be" style="text-decoration:none">
-				<img height="50" alt="Welcome on ehealth website" src="assets/images/logo-ehealth.png"/>
-			</a>
-			<a id="belgium-logo" href="https://www.belgium.be/en" target="_blank">
-				<img  alt="belgium.be" src="assets/images/logo-be.png">
-			</a>
+       
+			
 		</p>
       </div>  <!-- /inner-wrapper -->
     </div>  <!-- /container -->

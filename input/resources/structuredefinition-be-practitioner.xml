@@ -1,9 +1,9 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="be-practitioner" />
   <url value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner" />
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="BePractitioner" />
-  <status value="draft" />
+  <status value="active" />
   <description value="Belgian federal profile for a practitioner. Initially based on the functional description of the NIHDI." />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
@@ -441,7 +441,7 @@
         <rules value="open" />
       </slicing>
       <short value="An identifier for the person as this agent" />
-      <definition value="An identifier that applies to this person in this role.&#xD;&#xA;Typically, a NIHDI value and/or a SSIN value are given. Other systems remain allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed." />
+      <definition value="An identifier that applies to this person in this role.&#xD;&#xA;Typically, a NIHDI value and/or a SSIN value are given. Other systems remain allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When it is given, a consumer SHALL NOT ignore it." />
       <requirements value="Often, specific identities are assigned for the agent." />
       <min value="0" />
       <max value="*" />
@@ -461,6 +461,7 @@
         <expression value="hasValue() or (children().count() &gt; id.count())" />
         <xpath value="@value|f:*|h:div" />
       </constraint>
+	  <mustSupport value="true" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -3514,7 +3515,8 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <definition value="An identifier that applies to this person in this role.&#xD;&#xA;Typically, a NIHDI value and/or a SSIN value are given. Other systems remain allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed." />
+      <definition value="An identifier that applies to this person in this role.&#xD;&#xA;Typically, a NIHDI value and/or a SSIN value are given. Other systems remain allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When it is given, a consumer SHALL NOT ignore it." />
+	  <mustSupport value="true"/>
     </element>
     <element id="Practitioner.identifier:NIHDI">
       <path value="Practitioner.identifier" />

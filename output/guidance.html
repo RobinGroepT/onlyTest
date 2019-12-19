@@ -40,7 +40,7 @@
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <div id="hl7-nav">
-          <a id="standards-logo" no-external="true" href="">
+          <a id="standards-logo" no-external="true" href="index.html">
             <img height="50" alt="Welcome on standards website" src="assets/images/standards.svg"/>
           </a>
         </div>
@@ -116,7 +116,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">The Core Belgian Federal FHIR Profiles - Local Development build (v1.0.0). See the <a href="https://www.ehealth.fgov.be/standards/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">The Core Belgian Federal FHIR Profiles (v1.0.0). See the <a href="changes.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Guidance</h2>
   
   <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" >
@@ -140,17 +140,19 @@ modular FHIR resource. </p>
 necessary. Note the direction in this is how to functionally express that what
 is in KMEHR in FHIR, not the other way around. Attention points that could not directly be incorporated in the seperate artefacts follow here.</p>
 
+<p>As the FHIR specification is very developer friendly, there will be no public delivery of FHIR validation or visualisation tools by the eHealth Platform. Developers are encouraged to enjoy the speed and abundance of the <a href="https://www.hl7.org/fhir/R4/implsupport-module.html">existing FHIR eco system</a>, which existence is indeed one of the rationales behind the choice for FHIR.</p>
+<p>As a general principle for implementers, please note <a href="http://hl7.org/fhir/r4/validation.html#correct-use">Postel's Law is quoted</a> on the HL7 FHIR pages.</p>
 
 <h4>Use of extensions</h4>
 <p>“Note that, unlike in many other specifications, there can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions. 
 The use of extensions is what allows the <a href="http://www.hl7.org/fhir/r4/extensibility.html">FHIR specification</a> to retain a core simplicity for everyone.”</p>
-<p>The FHIR standard has a strict way to define extensions in resources.This is the only way to define extensions. An implementer SHALL take extra note of the <a href="http://hl7.org/fhir/r4/defining-extensions.html">rules</a> concerning Modifier Extension.</p>
-<p>Any project SHALL at least try to express its data using the bare FHIR standard and adapt its business rules accordingly.</p>
-<p>When an extension is needed and <a href="http://www.hl7.org/fhir/r4/extensibility-registry.html">there is already</a> an extension: this existing extension SHALL be used. In general, Belgian profiling on resources will endeavour to – when needed – only use the extensions already defined by HL7.
+<p>The FHIR standard has a strict way to define extensions in resources.This is the only way to define extensions. An implementer SHALL take extra note of the <a href="http://hl7.org/fhir/r4/defining-extensions.html">rules</a> concerning modifier extension.</p>
+<p>When going beyond the profiles in this guide, a project SHALL at least try to express its data using the bare FHIR standard and adapt its business rules accordingly.</p>
+<p>When an extension is needed and <a href="http://www.hl7.org/fhir/r4/extensibility-registry.html">there is already an extension</a>: this existing extension SHALL be used. In general, Belgian profiling on resources will endeavour to – when needed – only use the extensions already defined by HL7.
 In the Belgian profiling documentation, some available standard HL7 extensions of certain resources are recommended.</p>
 
 <h4>Valuesets binding</h4>
-<p>The <a href="https://www.hl7.org/fhir/r4/terminologies.html#strength">concept of valueset binding</a> is extremely important in the FHIR specification. The FHIR standards defines different levels of recommendation/ obligation towards the use of valuesets. 
+<p>The <a href="https://www.hl7.org/fhir/r4/terminologies.html#strength">concept of valueset binding</a> is extremely important in the FHIR specification. The FHIR standard defines different levels of recommendation/ obligation towards the use of valuesets. 
 They are defined on the pages of HL7 but are partly copied here for easy reference.</p>
 <p>Almost all the elements that have a coded data type are bound to a value set. The bindings are associated with various degrees of flexibility as to how closely the value set SHALL be followed:</p>
 <table style="width:100%;border: 1px solid black;border-collapse: collapse;" >
@@ -178,13 +180,13 @@ Consult the <a href="https://www.hl7.org/fhir/r4/terminologies.html#strength">HL
 
 <h4>SNOMED-CT usage</h4>
 <p>As SNOMED-CT is the preferred coding in the Belgian context and supported by the <a href="http://terminology-center.be">FPS Health</a>, it SHALL be clear there are some strict rules concerning its usage in a FHIR context 
-as defined by the FHIR specifications and <a href="https://www.hl7.org/fhir/R4/snomedct.html">they can be found</a> on the HL7 pages.</p>
+as defined by the FHIR specifications and they can be found on the <a href="https://www.hl7.org/fhir/R4/snomedct.html">HL7 pages</a>.</p>
 <p>This page does not aim to be exhaustive concerning the use of SNOMED-CT in FHIR but only lists some attention points that are in those specifications.</p>
 <ul>
 <li>Only SNOMED-CT Concept ID’s and SNOMED-CT expressions are valid in FHIR.</li>
 <li>The HL7 datatypes description contains <a href="https://www.hl7.org/fhir/datatypes-examples.html#codeableconcept">some examples of SNOMED-CT expressions</a> and how to use it in combination with other coding systems.</li>
 <li>Besides the pages describing specific SNOMED-CT usage, implementers SHALL also take note of the recommendations concerning SNOMED-CT use 
-in the observation resource, in particular, <a href="https://hl7.org/fhir/R4/observation.html#code-interop">the different patterns</a> that are described.</li>
+in the Observation resource, in particular, <a href="https://hl7.org/fhir/R4/observation.html#code-interop">the different patterns</a> that are described.</li>
 </ul>
 
 <h4>Period</h4>
@@ -197,7 +199,7 @@ Depending on the information available, the period can include a start dateTime 
 <h4>Canonical Identifiers</h4>
 <p>
 FHIR resources often contain canonical identifiers. This datatype uses an URI to refer to the used system. Note when these take the form of a URL they are not by definition resolvable.
-Specific URIs to use in Belgian profiles can be found here: <a href="https://www.ehealth.fgov.be/standards/kmehr/en/page/oid-overview">oid-overview</a>.</p>
+Specific URIs to use in Belgian profiles are explained in the profiles and a general overview can be found here: <a href="https://www.ehealth.fgov.be/standards/kmehr/en/page/oid-overview">oid-overview</a>.</p>
 <p>Example:
 <br>To refer to a number of the national registry:</br>
 &lt;identifier&gt;  
@@ -213,11 +215,10 @@ Specific URIs to use in Belgian profiles can be found here: <a href="https://www
 
 <h4>Textual and parts/structured information</h4>
 <p>A narrative SHOULD be included in resource instances. When doing so, <a href="https://www.hl7.org/fhir/narrative.html#Narrative">the guidelines of the HL7 FHIR specification</a> SHALL be followed strictly.</p>
-<p>Note when elements or datatypes give the option to express data structured and/or in text 
-applications SHALL ensure that when both text and parts are present, no content is included in the text that isn't found in a part.</p>
+
 
 <h4>ContactPoint</h4>
-<p>Used in inter alia, Patient and Practioner resource.</p>
+<p>Notably used in the Patient and Practioner resource.</p>
 <p>Special remarks for KMEHR users:
 <br>This information is typically retrieved in the KMEHR element &lt;telecom&gt;. That element uses both KMEHR tables CD-TELECOM (in its version 1.0) and CD-ADDRESS (in its version 1.1) to describe the actual telecom value.</br>
 <br>Please take extra note of the accepted range of FHIR values in the ‘system’ and ‘use’ fields as FHIR uses its own tables to express this content. Further information about the functional meanings concerning the FHIR valueset can be found on its official page.</br>
@@ -294,7 +295,7 @@ Note the HumanName.use is a required element. Typically the name that was used i
 <p>
 Note: if it is needed to express the same address in different languages: 
 the entire Address element SHALL repeat with each time the language extension on its highest level within Address. 
-This is only meant for use cases that actually involve addresses that exist in multiple 
+This is primarily meant for use cases that actually involve addresses that exist in multiple 
 languages (e.g. in the bilingual environment of Brussels-Capital Region) (also available in the BeAddress profile) </p>
 <p>Special remarks for KMEHR users:
 <br>Note when Address.use and Address.type are used they SHALL use the FHIR defined valuesets as per their required binding level in the FHIR specification. In a KMEHR address, the use was defined by CD-ADDRESS but those values can be found in the FHIR valueset. Cfr. table infra.</br>
@@ -345,21 +346,21 @@ In KMEHR, an address might be expressed using free text or a totally structured 
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.ehealth.fgov.be"/>eHealth Platform</a>.  Package hl7.be.core#1.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 10, 2019 16:59+0100">2019-12-10</span>
+		<a id="belgium-logo" href="https://www.belgium.be/en" target="_blank">
+				<img  alt="belgium.be" src="assets/images/logo-be.png"/>
+			</a>
+			<a id="ehealth-logo" href="https://www.ehealth.fgov.be" style="text-decoration:none">
+				<img height="50" alt="Welcome on ehealth website" src="assets/images/logo-ehealth.png"/>
+			</a>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://www.ehealth.fgov.be">eHealth Platform</a>.  Package hl7.be.core#1.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 19, 2019 09:13+0100">2019-12-19</span>
           <br/>
-          <span>
+		  <span>
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
           </span>
-        </p>
-		<p>
-			<a id="ehealth-logo" href="https://www.ehealth.fgov.be" style="text-decoration:none">
-				<img height="50" alt="Welcome on ehealth website" src="assets/images/logo-ehealth.png"/>
-			</a>
-			<a id="belgium-logo" href="https://www.belgium.be/en" target="_blank">
-				<img  alt="belgium.be" src="assets/images/logo-be.png">
-			</a>
+       
+			
 		</p>
       </div>  <!-- /inner-wrapper -->
     </div>  <!-- /container -->

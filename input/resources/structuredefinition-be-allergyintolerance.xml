@@ -2,9 +2,9 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="be-allergyintolerance" />
   <url value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance" />
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="BeAllergyIntolerance" />
-  <status value="draft" />
+  <status value="active" />
   <description value="Belgian federal profile for an allergy and/or an intolerance. Initially based on the functional description of the NIHDI." />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />

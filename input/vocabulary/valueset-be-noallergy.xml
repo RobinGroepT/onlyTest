@@ -1,9 +1,9 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/R4/valueset.xsd">
 	<id value="be-noallergy"/>
 	<url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy"/>
-	<version value="0.1.0"/>
+	<version value="1.0.0"/>
 	<name value="BeNoAllergy"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<publisher value="eHealth Platform"/>
 	<contact>
 		<name value="eHealth Platform"/>

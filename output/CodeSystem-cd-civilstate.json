@@ -3,7 +3,7 @@
   "id": "cd-civilstate",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CivilState</h2><div><p>Civil state in Belgium.</p>\n</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"cd-civilstate-10\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"cd-civilstate-20\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"cd-civilstate-25\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"cd-civilstate-26\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"cd-civilstate-30\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"cd-civilstate-40\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"cd-civilstate-41\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"cd-civilstate-50\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"cd-civilstate-51\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"cd-civilstate-60\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"cd-civilstate-80\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"cd-civilstate-81\"> </a></td><td/></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CivilState</h2><div><p>Civil state in Belgium.</p>\n</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"cd-civilstate-10\"> </a></td><td>Unmarried</td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"cd-civilstate-20\"> </a></td><td>Married</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"cd-civilstate-25\"> </a></td><td>Annuled</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"cd-civilstate-26\"> </a></td><td>Putative marriage</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"cd-civilstate-30\"> </a></td><td>Widowed</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"cd-civilstate-40\"> </a></td><td>Divorced</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"cd-civilstate-41\"> </a></td><td>Divorced since 1/10/1994</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"cd-civilstate-50\"> </a></td><td>Legal separation</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"cd-civilstate-51\"> </a></td><td>Legal separation since 1/10/1994</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"cd-civilstate-60\"> </a></td><td>Repudiation</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"cd-civilstate-80\"> </a></td><td>Partnership</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"cd-civilstate-81\"> </a></td><td>End of partnership</td><td/></tr></table></div>"
   },
   "url": "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate",
   "version": "1.0.0",
@@ -11,7 +11,7 @@
   "title": "CivilState",
   "status": "active",
   "experimental": false,
-  "date": "2019-12-10T16:59:55+01:00",
+  "date": "2019-12-19T09:13:57+01:00",
   "publisher": "eHealth Platform",
   "contact": [
     {
@@ -39,6 +39,7 @@
   "concept": [
     {
       "code": "10",
+      "display": "Unmarried",
       "designation": [
         {
           "language": "en",
@@ -56,6 +57,7 @@
     },
     {
       "code": "20",
+      "display": "Married",
       "designation": [
         {
           "language": "en",
@@ -73,6 +75,7 @@
     },
     {
       "code": "25",
+      "display": "Annuled",
       "designation": [
         {
           "language": "en",
@@ -90,6 +93,7 @@
     },
     {
       "code": "26",
+      "display": "Putative marriage",
       "designation": [
         {
           "language": "en",
@@ -107,6 +111,7 @@
     },
     {
       "code": "30",
+      "display": "Widowed",
       "designation": [
         {
           "language": "en",
@@ -124,6 +129,7 @@
     },
     {
       "code": "40",
+      "display": "Divorced",
       "designation": [
         {
           "language": "en",
@@ -141,6 +147,7 @@
     },
     {
       "code": "41",
+      "display": "Divorced since 1/10/1994",
       "designation": [
         {
           "language": "en",
@@ -158,6 +165,7 @@
     },
     {
       "code": "50",
+      "display": "Legal separation",
       "designation": [
         {
           "language": "en",
@@ -175,6 +183,7 @@
     },
     {
       "code": "51",
+      "display": "Legal separation since 1/10/1994",
       "designation": [
         {
           "language": "en",
@@ -192,6 +201,7 @@
     },
     {
       "code": "60",
+      "display": "Repudiation",
       "designation": [
         {
           "language": "en",
@@ -209,6 +219,7 @@
     },
     {
       "code": "80",
+      "display": "Partnership",
       "designation": [
         {
           "language": "en",
@@ -226,6 +237,7 @@
     },
     {
       "code": "81",
+      "display": "End of partnership",
       "designation": [
         {
           "language": "en",

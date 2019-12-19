@@ -12,17 +12,9 @@
   fhir:Resource.id [ fhir:value "observation1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/StructureDefinition/heartrate";
-       fhir:index 0;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/heartrate>
-     ], [
        fhir:value "http://hl7.org/fhir/StructureDefinition/vitalsigns";
-       fhir:index 1;
+       fhir:index 0;
        fhir:link <http://hl7.org/fhir/StructureDefinition/vitalsigns>
-     ], [
-       fhir:value "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation";
-       fhir:index 2;
-       fhir:link <https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation>
      ]
   ];
   fhir:DomainResource.text [

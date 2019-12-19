@@ -66,7 +66,7 @@ ref-1:SHALL have a contained resource if a local reference is provided {referenc
 ","",0,*,"Y","","Y","CodeableConcept {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observationcodeableconcept]]} {[]}
 ","Concept - reference to a terminology or just  text","Describes what was observed. Sometimes this is called the observation ""name"".
 
-For provinding systems, it is RECOMMENDED to express this using a code and consuming software SHALL record this.
+For providing systems, it is RECOMMENDED to express this using a code and consuming software SHALL record this.
 In general, it shall be noted SNOMED-CT is the preferred national terminology. Other coding systems remain allowed or MAY be preferred in specific flows (e.g. the use of LOINC codes to express a laboratory test.)","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"example","Codes identifying names of simple observations.","http://hl7.org/fhir/ValueSet/observation-codes","",,,,"Observation.code",1,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

@@ -2,9 +2,9 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="be-organization" />
   <url value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization" />
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="BeOrganization" />
-  <status value="draft" />
+  <status value="active" />
   <description value="Belgian federal profile for an organization. Initially based on the functional description of the NIHDI." />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />

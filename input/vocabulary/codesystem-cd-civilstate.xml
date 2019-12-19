@@ -12,6 +12,7 @@
 	<content value="complete"/>
 	<concept>
 		<code value="10"/>
+		<display value="Unmarried"/>
 		<designation>
 			<language value="en"/>
 			<value value="Unmarried"/>
@@ -27,6 +28,7 @@
 	</concept>
 	<concept>
 		<code value="20"/>
+			<display value="Married"/>
 		<designation>
 			<language value="en"/>
 			<value value="Married"/>
@@ -42,6 +44,7 @@
 	</concept>
 	<concept>
 		<code value="25"/>
+		<display value="Annuled"/>
 		<designation>
 			<language value="en"/>
 			<value value="Annuled"/>
@@ -57,6 +60,7 @@
 	</concept>
 	<concept>
 		<code value="26"/>
+			<display value="Putative marriage"/>
 		<designation>
 			<language value="en"/>
 			<value value="Putative marriage"/>
@@ -72,6 +76,7 @@
 	</concept>
 	<concept>
 		<code value="30"/>
+		<display value="Widowed"/>
 		<designation>
 			<language value="en"/>
 			<value value="Widowed"/>
@@ -87,6 +92,7 @@
 	</concept>
 	<concept>
 		<code value="40"/>
+			<display value="Divorced"/>
 		<designation>
 			<language value="en"/>
 			<value value="Divorced"/>
@@ -102,6 +108,7 @@
 	</concept>
 	<concept>
 		<code value="41"/>
+		<display value="Divorced since 1/10/1994"/>
 		<designation>
 			<language value="en"/>
 			<value value="Divorced since 1/10/1994"/>
@@ -117,6 +124,7 @@
 	</concept>
 	<concept>
 		<code value="50"/>
+		<display value="Legal separation"/>
 		<designation>
 			<language value="en"/>
 			<value value="Legal separation"/>
@@ -132,6 +140,7 @@
 	</concept>
 	<concept>
 		<code value="51"/>
+			<display value="Legal separation since 1/10/1994"/>
 		<designation>
 			<language value="en"/>
 			<value value="Legal separation since 1/10/1994"/>
@@ -147,6 +156,7 @@
 	</concept>
 	<concept>
 		<code value="60"/>
+			<display value="Repudiation"/>
 		<designation>
 			<language value="en"/>
 			<value value="Repudiation"/>
@@ -162,6 +172,7 @@
 	</concept>
 	<concept>
 		<code value="80"/>
+				<display value="Partnership"/>
 		<designation>
 			<language value="en"/>
 			<value value="Partnership"/>
@@ -177,6 +188,7 @@
 	</concept>
 	<concept>
 		<code value="81"/>
+			<display value="End of partnership"/>
 		<designation>
 			<language value="en"/>
 			<value value="End of partnership"/>

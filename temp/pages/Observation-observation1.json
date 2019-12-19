@@ -3,9 +3,7 @@
   "id": "observation1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/heartrate",
-      "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"
+      "http://hl7.org/fhir/StructureDefinition/vitalsigns"
     ]
   },
   "text": {

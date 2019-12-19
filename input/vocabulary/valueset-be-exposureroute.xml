@@ -1,9 +1,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="be-exposureroute"/>
 	<url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-exposureroute"/>
-	<version value="0.1.0"/>
+	<version value="1.0.0"/>
 	<name value="BeExposureRoute"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<publisher value="eHealth Platform"/>
 	<contact>
 		<name value="eHealth Platform"/>
